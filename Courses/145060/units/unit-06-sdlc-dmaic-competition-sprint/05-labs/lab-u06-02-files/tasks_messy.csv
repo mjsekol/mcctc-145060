@@ -1,0 +1,7 @@
+task,owner_role,estimate_blocks,status,due_day
+Write project charter,Facilitator,1,done,1
+Interview stakeholder,Stakeholder Liaison,one,done,2
+Write failing acceptance tests,Test Lead,2,Doing ,5
+Design functions,Integration Lead,2,in review,6
+Read watering log CSV,Integration Lead,2,todo,19
+,Test Lead,3,todo,8

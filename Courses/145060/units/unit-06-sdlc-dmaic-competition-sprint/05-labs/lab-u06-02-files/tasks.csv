@@ -1,0 +1,13 @@
+task,owner_role,estimate_blocks,status,due_day
+Write project charter,Facilitator,1,done,1
+Interview stakeholder,Stakeholder Liaison,1,done,2
+Write requirements with acceptance criteria,Stakeholder Liaison,2,done,3
+Build timeline on class days,Facilitator,1,done,3
+Write failing acceptance tests,Test Lead,2,doing,5
+Design functions and data files,Integration Lead,2,doing,6
+Read watering log CSV,Integration Lead,2,todo,7
+Flag trays overdue for water,Test Lead,3,todo,8
+Break coverage report,Stakeholder Liaison,2,blocked,9
+Weekly summary printout,Facilitator,2,todo,10
+Handle bad rows in the log,Test Lead,2,todo,11
+Write README and user help,Facilitator,1,todo,14
