@@ -1,0 +1,11 @@
+SC1042 Food pantry shift    3
+SC1007 Park cleanup         2
+SC2210 Food pantry shift    3
+SC1040 Library book sale    4
+SC1042 Park cleanup         2
+
+SC1007 Blood drive setup    2
+SC1042 Tutoring night       2
+SC2210 Park cleanup         2
+SC1042 Blood drive setup    3
+SC1040 Tutoring night       1
