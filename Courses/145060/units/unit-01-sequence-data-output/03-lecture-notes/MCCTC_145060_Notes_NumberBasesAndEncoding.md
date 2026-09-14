@@ -1,6 +1,12 @@
 # Lecture Notes: Number Bases, Encoding, and Files
 ## 145060 Programming · Unit 1 · Week 4 · Monday through Wednesday
 
+**Slides for this lesson:**
+
+- Monday: [outline](../04-slides/MCCTC_145060_Slides_W04_NumberBases.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W04_NumberBases.pptx)
+- Tuesday: [outline](../04-slides/MCCTC_145060_Slides_W04_CharactersAreNumbers.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W04_CharactersAreNumbers.pptx)
+- Wednesday: [outline](../04-slides/MCCTC_145060_Slides_W04_ReadingFiles.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W04_ReadingFiles.pptx)
+
 If you missed class, you can learn these three concepts from this file alone. Type
 every example.
 
