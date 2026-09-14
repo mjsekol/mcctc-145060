@@ -1,6 +1,12 @@
 # Lecture Notes: Strings, Build Reach Clean
 ## 145060 Programming · Unit 1 · Week 3 · Tuesday through Thursday
 
+**Slides for this lesson:**
+
+- Tuesday: [outline](../04-slides/MCCTC_145060_Slides_W03_BuildingStrings.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W03_BuildingStrings.pptx)
+- Wednesday: [outline](../04-slides/MCCTC_145060_Slides_W03_ReachingInside.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W03_ReachingInside.pptx)
+- Thursday: [outline](../04-slides/MCCTC_145060_Slides_W03_CleaningText.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W03_CleaningText.pptx)
+
 If you missed class, you can learn these three concepts from this file alone. Type
 every example. Reading string code without running it is close to worthless, because
 the mistakes are invisible.

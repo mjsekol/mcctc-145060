@@ -1,6 +1,8 @@
 # Lecture Notes: Commits and History
 ## 145060 Programming · Unit 0 · Week 1 · Wednesday
 
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W01_CommitsAndHistory.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W01_CommitsAndHistory.pptx)
+
 If you missed class, you can learn this concept from this file alone. Open a
 terminal and run every command. Git is a tool you learn with your hands.
 

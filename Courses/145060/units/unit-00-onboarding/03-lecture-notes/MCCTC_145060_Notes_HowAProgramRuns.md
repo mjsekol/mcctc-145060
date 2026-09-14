@@ -1,6 +1,8 @@
 # Lecture Notes: How a Program Runs
 ## 145060 Programming · Unit 0 · Week 1 · Tuesday
 
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W01_HowCodeRuns.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W01_HowCodeRuns.pptx)
+
 If you missed class, you can learn this concept from this file alone. Read it with
 a terminal open and type every example. Reading code you did not type is close to
 worthless at this stage.

@@ -1,6 +1,8 @@
 # Lecture Notes: Types and Input
 ## 145060 Programming · Unit 1 · Week 2 · Thursday
 
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W02_TypesAndInput.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W02_TypesAndInput.pptx)
+
 If you missed class, you can learn this concept from this file alone. Type every
 example, especially the one that does not crash.
 

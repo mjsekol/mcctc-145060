@@ -1,6 +1,8 @@
 # Lecture Notes: Variables and Assignment
 ## 145060 Programming · Unit 1 · Week 2 · Wednesday
 
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W02_Variables.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W02_Variables.pptx)
+
 If you missed class, you can learn this concept from this file alone. Type every
 example. Reading code you did not type is close to worthless at this stage.
 
