@@ -55,20 +55,32 @@ generates room descriptions, that is a feature.
 
 ## What is in here
 
+| Unit | Weeks | Dates | Folder |
+|---|---|---|---|
+| 0 · Onboarding, Version Control & Ground Rules | 1-2 | Sept 8 - Sept 18 | `unit-00-onboarding/` |
+| 1 · Sequence, Data & Output | 2-4 | Sept 16 - Oct 2 | `unit-01-sequence-data-output/` |
+| 2 · Selection & Boolean Logic | 4-6 | Sept 28 - Oct 16 | `unit-02-selection-boolean-logic/` |
+| 3 · Repetition & the Text Adventure | 6-8 | Oct 12 - Oct 30 | `unit-03-repetition-text-adventure/` |
+| 4 · Functions, Errors & Debugging | 8-9 | Oct 26 - Nov 6 | `unit-04-functions-errors-debugging/` |
+| 5 · Collections, Files & Real Data | 10-12 | Nov 9 - Nov 24 | `unit-05-collections-files-real-data/` |
+| 6 · SDLC, DMAIC & the Competition Sprint | 13-15 | Nov 30 - Dec 18 | `unit-06-sdlc-dmaic-competition-sprint/` |
+| 7 · Objects, APIs & Local AI | 16-18 | Jan 4 - Jan 22 | `unit-07-objects-apis-local-ai/` |
+| 8 · Deploy, Document & Demonstrate | 19 | Jan 25 - Jan 29 | `unit-08-deploy-document-demonstrate/` |
+
+Every unit folder is under `Courses/145060/units/` and has the same shape:
+
 ```
-Courses/145060/units/
-  unit-00-onboarding/
-  unit-01-sequence-data-output/
-    03-lecture-notes/   read these if you missed class, or before you build
-    04-slides/          the decks from class, and their outlines
-    05-labs/            the guided labs
-    07-gate2-adversarial/  the code review exercises
-    09-project/         project briefs
-    10-resources/       readings, practice, documentation
+03-lecture-notes/      read these if you missed class, or before you build
+04-slides/             the decks from class, and their outlines
+05-labs/               the guided labs and the files they use
+07-gate2-adversarial/  the code review exercises and the code to review
+09-project/            project briefs, templates, and problem drops
+10-resources/          readings, practice, documentation
 ```
 
 Plus `Courses/Misc/` for the Side Quest Catalog, the Lab Acceptable Use and Safety
-Agreement, and the SQ-05 Bug Hunt materials.
+Agreement, and the side quest bundles: SQ-05 Bug Hunt, SQ-10 API First Contact, and
+SQ-13 The Scraper.
 
 **Lecture notes are written so you can learn a concept from the file alone.** If you
 were out, start there rather than asking someone what you missed.
