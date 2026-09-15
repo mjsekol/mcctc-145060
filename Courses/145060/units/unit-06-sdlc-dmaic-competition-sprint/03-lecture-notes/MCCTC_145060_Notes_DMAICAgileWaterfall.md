@@ -1,8 +1,8 @@
 # Lecture Notes: DMAIC Outside, Agile Inside, and the Case for Waterfall
-## 145060 Programming · Unit 6 · Week 13 · Monday, November 30
+## 145060 Programming · Unit 6 · Week 12, Monday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W13_OrderingTheWork.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W13_OrderingTheWork.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W12_OrderingTheWork.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W12_OrderingTheWork.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.

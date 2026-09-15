@@ -1,8 +1,8 @@
 # Peer Code Review Protocol
 ## 145060 Programming · Unit 6 · Reviews 1 and 2
 
-**Review 1:** Monday, December 14, Build 2, 40 minutes. You review another team's
-Sprint 1 code. **Review 2:** Thursday, December 17, Build 1, 30 minutes plus 5 minutes
+**Review 1:** Week 14, Monday, Build 2, 40 minutes. You review another team's
+Sprint 1 code. **Review 2:** Week 14, Thursday, Build 1, 30 minutes plus 5 minutes
 to merge and tag. You review another team's change branch before it merges into their
 baseline.
 

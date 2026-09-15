@@ -1,8 +1,8 @@
 # Project: Text Adventure v2
-## 145060 Programming · Unit 4 · Due 8:30 am, Friday, November 6, 2026
+## 145060 Programming · Unit 4 · Due 8:30 am, Week 9, Friday
 
-**Mode:** solo. **Gate:** 3, full tooling, decision log required. **Built from:** your own text adventure v1, submitted October 27. **Periods:** the
-function practice on October 28 and 29 is the warm-up, and Build 2 every day from Monday, November 2 through Thursday, November 5 is the build.
+**Mode:** solo. **Gate:** 3, full tooling, decision log required. **Built from:** your own text adventure v1, submitted on Tuesday of Week 8. **Periods:** the
+function practice on Wednesday and Thursday of Week 8 is the warm-up, and Build 2 every day from Monday through Thursday of Week 9 is the build.
 
 **Competencies:** 5.3.9 (create and call functions), 5.2.2 (scope of data), 5.3.10 (error handling), 5.5.1 (data validation), 5.4.4 (define test cases),
 5.4.5 (test the program using defined test cases), 5.4.6 (correct syntax and runtime errors), 5.4.7 (debug logic errors), 5.5.2 (reuse libraries, through
@@ -46,7 +46,7 @@ change. Those are yours to decide.
 
 ### Same game
 
-1. **Every v1 ending still happens the same way.** Every v1 test script reaches the same ending, and its output matches the v1 output you saved on November 2,
+1. **Every v1 ending still happens the same way.** Every v1 test script reaches the same ending, and its output matches the v1 output you saved on Monday of Week 9,
    except for lines you changed on purpose. Every intended difference is listed in your README.
 2. **No new rooms, items, endings, or routes.** Version 2 changes the shape of the code, not the game. A new room goes in your README under `Later versions`.
 
@@ -98,7 +98,7 @@ text-adventure/
   test-scripts/
     win.txt
     lose-<name>.txt
-    <name>_v1_output.txt     (saved November 2, before any v2 change)
+    <name>_v1_output.txt     (saved Monday of Week 9, before any v2 change)
     no-quit.txt              (a script that ends without quit)
   adventure.py
   test_adventure.py
@@ -143,11 +143,11 @@ refactor or "make it robust."** Wednesday showed you what that produces. You mus
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Mon Nov 2, first 5 minutes of Build 2 | Three sentences in the decision log: what v2 changes, what must stay identical, one thing v1 does that crashes today |
-| **Measure** | Mon Nov 2, Build 2 | `test-scripts/*_v1_output.txt` for every v1 script, saved with `cmd /c "python adventure.py < test-scripts\win.txt > test-scripts\win_v1_output.txt"`. `failure-inventory.md`: every place the game reads input, and what can go wrong there |
-| **Analyze** | Mon Nov 2, end of Build 2 | `function-map.md`: every planned function, its parameters, what it returns, and the v1 lines it replaces. **Committed before `adventure.py` changes** |
-| **Improve** | Tue Nov 3 to Wed Nov 4 | The refactor, then error handling and inventory. A daily goal line and a commit at the end of every Build 2. Log entries written as bugs happen |
-| **Control** | Thu Nov 5 to Fri Nov 6, 8:30 am | `test-cases.md`, `test_adventure.py` passing, `fc` comparisons pasted, README complete |
+| **Define** | Week 9 Mon, first 5 minutes of Build 2 | Three sentences in the decision log: what v2 changes, what must stay identical, one thing v1 does that crashes today |
+| **Measure** | Week 9 Mon, Build 2 | `test-scripts/*_v1_output.txt` for every v1 script, saved with `cmd /c "python adventure.py < test-scripts\win.txt > test-scripts\win_v1_output.txt"`. `failure-inventory.md`: every place the game reads input, and what can go wrong there |
+| **Analyze** | Week 9 Mon, end of Build 2 | `function-map.md`: every planned function, its parameters, what it returns, and the v1 lines it replaces. **Committed before `adventure.py` changes** |
+| **Improve** | Week 9 Tue to Wed | The refactor, then error handling and inventory. A daily goal line and a commit at the end of every Build 2. Log entries written as bugs happen |
+| **Control** | Week 9 Thu to Fri, 8:30 am | `test-cases.md`, `test_adventure.py` passing, `fc` comparisons pasted, README complete |
 
 **Measure is the phase that saves you.** Once you change one line of `adventure.py`, you can never again produce v1's output from the current file. If you skip it, you have no way to prove
 requirement 1, and "it seems the same" is not proof.
@@ -160,14 +160,14 @@ requirement 1, and "it seems the same" is not proof.
 
 | Day | Build 2 goal |
 |---|---|
-| Wed Oct 28 | `functions_practice.py`: three shapes from your v1 turned into functions. The warm-up, not submitted. |
-| Thu Oct 29 | Return practice, and `destination_from` for your own map. It becomes your v2 exit function. |
-| Fri Oct 30 | v1 demos. Your exit ticket names the first function you will write. **This brief is handed out.** |
-| Mon Nov 2 | Troubleshooting method. **Define, Measure, Analyze.** Baseline outputs, failure inventory, function map, empty troubleshooting log, all committed. `adventure.py` untouched. |
-| Tue Nov 3 | `try` and `except`. **Refactor:** constants, `main()` with the state, `read_command` handling `EOFError`, exits, descriptions, and endings as functions. `fc` on your win script shows no differences. |
-| Wed Nov 4 | Narrow excepts. **Error handling and inventory:** Ctrl+C, a script with no `quit`, validation functions, the length limit, the `inventory` command. Every script still matches. **Desk demos begin.** |
-| Thu Nov 5 | Test cases. **GP1 exam in Build 1.** Remaining Build 2: `test-cases.md`, `test_adventure.py`, `fc` for every script, log entries finished. **Desk demos continue.** |
-| Fri Nov 6 | **8:15-8:30: final commit window. Due at 8:30 am.** Gate 2 W09. Five-minute demos. GP1 ends. |
+| Week 8 Wed | `functions_practice.py`: three shapes from your v1 turned into functions. The warm-up, not submitted. |
+| Week 8 Thu | Return practice, and `destination_from` for your own map. It becomes your v2 exit function. |
+| Week 8 Fri | v1 demos. Your exit ticket names the first function you will write. **This brief is handed out.** |
+| Week 9 Mon | Troubleshooting method. **Define, Measure, Analyze.** Baseline outputs, failure inventory, function map, empty troubleshooting log, all committed. `adventure.py` untouched. |
+| Week 9 Tue | `try` and `except`. **Refactor:** constants, `main()` with the state, `read_command` handling `EOFError`, exits, descriptions, and endings as functions. `fc` on your win script shows no differences. |
+| Week 9 Wed | Narrow excepts. **Error handling and inventory:** Ctrl+C, a script with no `quit`, validation functions, the length limit, the `inventory` command. Every script still matches. **Desk demos begin.** |
+| Week 9 Thu | Test cases. **GP1 exam in Build 1.** Remaining Build 2: `test-cases.md`, `test_adventure.py`, `fc` for every script, log entries finished. **Desk demos continue.** |
+| Week 9 Fri | **8:15-8:30: final commit window. Due at 8:30 am.** Gate 2 W09. Five-minute demos. GP1 ends. |
 
 **The last commit pushed by 8:30 am Friday is the submission.**
 
@@ -209,7 +209,7 @@ code you cannot yet explain, and it breaks requirement 2, the same game. Put the
 
 ## The five-minute demo
 
-Friday, November 6 for six or seven students. Everyone else demos at their desk on Wednesday or Thursday, using the same checklist, scored on the same 10 points.
+Friday of Week 9, for six or seven students. Everyone else demos at their desk on Wednesday or Thursday, using the same checklist, scored on the same 10 points.
 
 1. **What changed, in two sentences.** (20 seconds)
 2. **Run `python test_adventure.py`** and the `fc` comparison for your win script. (40 seconds)
@@ -254,7 +254,7 @@ one you meant, list it in the README.
 
 **"My test file prints my game's intro and waits."** Your `adventure.py` calls `main()` with no `if __name__ == "__main__":` above it. Thursday's notes.
 
-**"`UnboundLocalError` for `moves` or `room`."** A function is changing a variable that belongs to `main()`. Pass it in and return the new value. October 29's notes.
+**"`UnboundLocalError` for `moves` or `room`."** A function is changing a variable that belongs to `main()`. Pass it in and return the new value. The notes from Thursday of Week 8.
 
 **"My game says `None` somewhere."** A function that should return text printed it, or one path has no `return`. Print what the function returns. Then log it: it is your silent bug.
 

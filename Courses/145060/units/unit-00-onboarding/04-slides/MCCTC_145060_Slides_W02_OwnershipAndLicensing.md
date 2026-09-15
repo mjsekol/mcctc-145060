@@ -1,7 +1,7 @@
 # Who Owns What the Machine Made
 ---
 ## Slide 1: You are going to ship something in six weeks
-- Congressional App Challenge closes October 26
+- The Congressional App Challenge closes in about six weeks
 - A submission is a claim about your work
 - You will use AI between now and then
 - Nobody told you what that means yet

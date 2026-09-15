@@ -12,12 +12,12 @@
 import csv
 import sys
 
-# The sprint runs on class days, not calendar days. Day 1 is Monday Nov 30.
-# Weekends and winter break are not in the list, so they cannot be counted.
+# The sprint runs on class days, not calendar days. Day 1 is Week 12 Mon.
+# Weekends and days without class are not in the list, so they cannot be counted.
 DAY_LABELS = [
-    "Mon Nov 30", "Tue Dec 1", "Wed Dec 2", "Thu Dec 3", "Fri Dec 4",
-    "Mon Dec 7", "Tue Dec 8", "Wed Dec 9", "Thu Dec 10", "Fri Dec 11",
-    "Mon Dec 14", "Tue Dec 15", "Wed Dec 16", "Thu Dec 17", "Fri Dec 18",
+    "Week 12 Mon", "Week 12 Tue", "Week 12 Wed", "Week 12 Thu", "Week 12 Fri",
+    "Week 13 Mon", "Week 13 Tue", "Week 13 Wed", "Week 13 Thu", "Week 13 Fri",
+    "Week 14 Mon", "Week 14 Tue", "Week 14 Wed", "Week 14 Thu", "Week 14 Fri",
 ]
 LAST_BUILD_DAY = 14      # Day 15 is acceptance demos, not building
 BLOCKS_PER_DAY = 2       # Build 1 and Build 2

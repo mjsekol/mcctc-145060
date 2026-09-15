@@ -1,5 +1,5 @@
 # Practice Interview Transcript
-## 145060 Programming · Unit 6 · Week 13 · Tuesday, December 1 · Build 1
+## 145060 Programming · Unit 6 · Week 12, Tuesday · Build 1
 
 **Why this exists.** In Build 2 you get four minutes with your real stakeholder, and four minutes goes fast.
 Practice pulling requirements out of a conversation first, on one where nobody is waiting for you.
@@ -25,7 +25,7 @@ underline every sentence that contains a requirement, a constraint, or a hint ab
 > **Student:** You have the spreadsheet already, though. Can you tell us about the last time the uniforms caused a
 > problem?
 >
-> **Director:** Oh. The holiday parade, last year. The Tuesday before, we found out we had no jackets left in small.
+> **Director:** Oh. The homecoming parade, last year. The Tuesday before, we found out we had no jackets left in small.
 > None. Four freshmen marched in jackets down to their knees. And two jackets we thought were fine had broken zippers,
 > which we found out that morning.
 >

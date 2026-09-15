@@ -1,12 +1,12 @@
 # Lab U6-02: Sprint Board
-## 145060 Programming · Unit 6 · Week 14 · Self-directed
+## 145060 Programming · Unit 6 · Week 13 · Self-directed
 
-**Gate:** 3 (open tooling). **Duration:** two Build 1 blocks, Monday December 7 and Tuesday December 8.
+**Gate:** 3 (open tooling). **Duration:** two Build 1 blocks, Monday and Tuesday of Week 13.
 Individual, sitting with your team. **Competencies:** 5.6.3 (develop and adhere to timelines), 1.8.2
 (organize resources), with 5.3.11 and 5.5.7 from Unit 5 applied (read a data file).
 
 **This lab runs with no instructor.** Every step has an observable result you can check yourself. When
-you are stuck, use the order in your Week 14 guide: lecture notes, team, another team, then the STUCK board.
+you are stuck, use the order in your Week 13 guide: lecture notes, team, another team, then the STUCK board.
 
 **Files:** `05-labs/lab-u06-02-files/sprint_board.py`, `tasks.csv`, and `tasks_messy.csv`. Copy all three into
 one folder.
@@ -53,7 +53,7 @@ Write README and user help,Facilitator,1,todo,14
 |---|---|
 | `estimate_blocks` | How many build blocks the task needs. One class day has two: Build 1 and Build 2. |
 | `status` | One of `todo`, `doing`, `blocked`, `done` |
-| `due_day` | The sprint day it is due. Day 1 is Monday, November 30. Day 15 is Friday, December 18. |
+| `due_day` | The sprint day it is due. Day 1 is Week 12, Monday. Day 15 is Week 14, Friday. |
 
 ---
 
@@ -76,12 +76,12 @@ Write README and user help,Facilitator,1,todo,14
 import csv
 import sys
 
-# The sprint runs on class days, not calendar days. Day 1 is Monday Nov 30.
-# Weekends and winter break are not in the list, so they cannot be counted.
+# The sprint runs on class days, not calendar days. Day 1 is Week 12 Mon.
+# Weekends and days without class are not in the list, so they cannot be counted.
 DAY_LABELS = [
-    "Mon Nov 30", "Tue Dec 1", "Wed Dec 2", "Thu Dec 3", "Fri Dec 4",
-    "Mon Dec 7", "Tue Dec 8", "Wed Dec 9", "Thu Dec 10", "Fri Dec 11",
-    "Mon Dec 14", "Tue Dec 15", "Wed Dec 16", "Thu Dec 17", "Fri Dec 18",
+    "Week 12 Mon", "Week 12 Tue", "Week 12 Wed", "Week 12 Thu", "Week 12 Fri",
+    "Week 13 Mon", "Week 13 Tue", "Week 13 Wed", "Week 13 Thu", "Week 13 Fri",
+    "Week 14 Mon", "Week 14 Tue", "Week 14 Wed", "Week 14 Thu", "Week 14 Fri",
 ]
 LAST_BUILD_DAY = 14      # Day 15 is acceptance demos, not building
 BLOCKS_PER_DAY = 2       # Build 1 and Build 2
@@ -115,7 +115,7 @@ Running it:
 
 ```
 $ python sprint_board.py tasks.csv 8 3
-SPRINT BOARD | Day 8 of 15 (Wed Dec 9)
+SPRINT BOARD | Day 8 of 15 (Week 13 Wed)
 ====================================================
 Nothing on the board yet.
 ```
@@ -244,7 +244,7 @@ IndexError: list index out of range
 
 ### Not an error, and worse: Day 0
 
-`python sprint_board.py tasks.csv 0 3` on the starter prints `Day 0 of 15 (Fri Dec 18)`. **No error.** `DAY_LABELS[-1]` is a
+`python sprint_board.py tasks.csv 0 3` on the starter prints `Day 0 of 15 (Week 14 Fri)`. **No error.** `DAY_LABELS[-1]` is a
 valid index meaning "the last item." Step 11's check refuses 0 too.
 
 ---

@@ -1,8 +1,8 @@
 # Lecture Notes: Handling 404, Timeout, and Rate Limit Distinctly
-## 145060 Programming · Unit 7 · Week 17 · Tuesday
+## 145060 Programming · Unit 7 · Week 16 · Tuesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W17_HandlingFailures.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W17_HandlingFailures.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_HandlingFailures.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W16_HandlingFailures.pptx)
 
 If you missed class, you can learn this concept from this file alone. You need the lab's
 fixture server running to try the examples.

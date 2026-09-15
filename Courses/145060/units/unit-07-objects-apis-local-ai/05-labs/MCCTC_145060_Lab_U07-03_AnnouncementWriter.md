@@ -1,5 +1,5 @@
 # Lab U7-03: Announcement Writer
-## 145060 Programming · Unit 7 · Week 17
+## 145060 Programming · Unit 7 · Week 16
 
 **Gate:** 3 (open tooling). **Duration:** one Build block, Thursday.
 **Competencies:** 5.5.4 (call other programs), 5.5.7 (read inputs), 5.3.10 (error

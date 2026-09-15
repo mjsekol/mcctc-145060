@@ -1,5 +1,5 @@
 # Gate 2: Adversarial Review · Week 1
-## 145060 Programming · Unit 0 · Friday, September 11
+## 145060 Programming · Unit 0 · Week 1, Friday
 
 **Gate 2 is the gate where AI is the opponent.** You are not writing this code. You
 are reviewing it, and you are scored on what you catch against what you miss.

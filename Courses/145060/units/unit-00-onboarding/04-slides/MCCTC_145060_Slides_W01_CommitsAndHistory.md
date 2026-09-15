@@ -71,7 +71,7 @@ Image: Left panel a floppy or save icon. Right panel a photograph with a handwri
 - Two of them belong to a different idea
 - Staging is where you choose
 - Trivial today. Not trivial by Unit 4
-Speaker notes: You fixed a bug in one file and started an unrelated feature in another. Those belong in two commits with two messages, because in six weeks you will want to find the bug fix without dragging the half-finished feature along with it. On a four line program, that choice is meaningless and typing git add feels like busywork. You are not wrong about that today. Ask me again in October.
+Speaker notes: You fixed a bug in one file and started an unrelated feature in another. Those belong in two commits with two messages, because in six weeks you will want to find the bug fix without dragging the half-finished feature along with it. On a four line program, that choice is meaningless and typing git add feels like busywork. You are not wrong about that today. Ask me again in six weeks.
 Image: A diagram showing five changed files with two selected and moving into a commit box.
 ---
 ## Slide 9: Messages that are worth writing

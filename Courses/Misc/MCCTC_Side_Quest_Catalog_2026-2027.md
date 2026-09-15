@@ -159,7 +159,7 @@ would have caught.
 ---
 
 ## SQ-07 · The Halloween Build
-**Unlocks:** Unit 3, late October · **Time:** two blocks · **Difficulty:** ★★
+**Unlocks:** Unit 3, Week 8 · **Time:** two blocks · **Difficulty:** ★★
 **Competency:** 5.3.6, 5.3.8, 5.1.2
 
 Extend your text adventure with something genuinely unsettling: a room that changes
@@ -175,7 +175,7 @@ triggers it, and one classmate has played it start to finish without your help.
 ---
 
 ## SQ-08 · Deploy Something Nobody Asked For
-**Unlocks:** Unit 8, Week 19, or any time after · **Time:** two blocks · **Difficulty:** ★★
+**Unlocks:** Unit 8, Week 18, or any time after · **Time:** two blocks · **Difficulty:** ★★
 **Competency:** 5.6.16, 5.6.8
 
 Put something on the public internet. Render, free tier, no credit card. It does not
@@ -204,7 +204,7 @@ numbers are often embarrassing and reporting them accurately is part of the grad
 ---
 
 ## SQ-10 · API First Contact
-**Unlocks:** Unit 7, Week 17 · **Time:** two blocks · **Difficulty:** ★★
+**Unlocks:** Unit 7, Week 16 · **Time:** two blocks · **Difficulty:** ★★
 **Competency:** 5.5.4, 5.5.7, 9.3.3
 
 Consume a public API that needs no key and no account. Weather, transit, earthquakes,
@@ -282,7 +282,7 @@ why, has completed this quest.** That judgment is the skill.
 ---
 
 ## SQ-14 · The Local Model in Your Program
-**Unlocks:** Unit 7, Week 17 · **Time:** two blocks · **Difficulty:** ★★★
+**Unlocks:** Unit 7, Week 16 · **Time:** two blocks · **Difficulty:** ★★★
 **Competency:** 5.5.4, latent 2.14.3, 2.14.4
 
 Call the lab's locally hosted model from your own Python code. Send it a prompt,

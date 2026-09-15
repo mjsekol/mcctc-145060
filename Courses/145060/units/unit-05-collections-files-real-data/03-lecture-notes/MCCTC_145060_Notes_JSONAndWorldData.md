@@ -1,5 +1,5 @@
 # Lecture Notes: JSON and Moving Data Out of Code
-## 145060 Programming · Unit 5 · Week 11 · Monday, November 16
+## 145060 Programming · Unit 5 · Week 11, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W11_JSONWorldData.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W11_JSONWorldData.pptx)
 

@@ -1,7 +1,7 @@
 # Lab U6-01: Tests for Code You Did Not Write
-## 145060 Programming · Unit 6 · Week 13
+## 145060 Programming · Unit 6 · Week 12
 
-**Gate:** 3 (open tooling). **Duration:** Build 1, Thursday, December 3, 35 minutes. Individual.
+**Gate:** 3 (open tooling). **Duration:** Build 1, Week 12, Thursday, 35 minutes. Individual.
 **Competencies:** 5.6.14 (ensure code quality by testing), 5.4.4 and 5.4.5 (define test cases and test
 against them), 5.6.2 (processing requirements).
 

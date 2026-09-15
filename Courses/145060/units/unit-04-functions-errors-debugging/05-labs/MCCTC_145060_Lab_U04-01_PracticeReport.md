@@ -2,7 +2,7 @@
 ## 145060 Programming · Unit 4 · Week 9
 
 **Gate:** 3 (open tooling), with one rule: **no AI tool may be asked to find or fix these bugs.** The method is what is being
-practiced. **Duration:** Build 1, 35 minutes, Monday, November 2. Entry 3 is due at the start of the block on Tuesday.
+practiced. **Duration:** Build 1, 35 minutes, Monday of Week 9. Entry 3 is due at the start of the block on Tuesday.
 **Competencies:** 5.4.6 (correct syntax and runtime errors), 5.4.7 (debug logic errors), 5.3.9 (functions).
 
 ---
@@ -183,7 +183,7 @@ NameError: name 'longest_streak' is not defined
 ```
 
 **Cause:** you added a line **below** the call to `main()`, at the bottom of the file. `longest_streak` is local to `main()` and stopped existing when `main()` returned. That
-is October 29's scope lesson. Anything that uses `main()`'s variables goes inside `main()`.
+is the scope lesson from Thursday of Week 8. Anything that uses `main()`'s variables goes inside `main()`.
 
 ---
 

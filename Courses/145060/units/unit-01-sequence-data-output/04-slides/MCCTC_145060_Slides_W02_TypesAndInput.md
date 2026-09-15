@@ -49,7 +49,7 @@ Image: None. This slide is code.
 - Times between text and a number succeeds
 - One tells you immediately
 - The other hands you garbage and says nothing
-Speaker notes: Write this sentence down. The dangerous bugs are the ones that do not crash. If I had written plus instead of times, Python would have raised a TypeError, pointed at the line, and I would have fixed it in ten seconds. Instead it succeeded. You find this one in October, when somebody reports a weird number in your text adventure, and by then you have no idea which line did it. An error message is a gift.
+Speaker notes: Write this sentence down. The dangerous bugs are the ones that do not crash. If I had written plus instead of times, Python would have raised a TypeError, pointed at the line, and I would have fixed it in ten seconds. Instead it succeeded. You find this one weeks later, when somebody reports a weird number in your text adventure, and by then you have no idea which line did it. An error message is a gift.
 Image: Two panels. Left, a red error with a clear arrow at one line. Right, a clean output with a wrong number and no marks at all.
 ---
 ## Slide 7: So convert, on the way in

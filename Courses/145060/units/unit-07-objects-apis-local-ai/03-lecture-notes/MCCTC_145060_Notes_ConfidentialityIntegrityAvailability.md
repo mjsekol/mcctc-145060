@@ -1,8 +1,8 @@
 # Lecture Notes: Confidentiality, Integrity, Availability
-## 145060 Programming · Unit 7 · Week 18 · Thursday
+## 145060 Programming · Unit 7 · Week 17 · Thursday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W18_CIA.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W18_CIA.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W17_CIA.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W17_CIA.pptx)
 
 If you missed class, you can learn this concept from this file alone.
 

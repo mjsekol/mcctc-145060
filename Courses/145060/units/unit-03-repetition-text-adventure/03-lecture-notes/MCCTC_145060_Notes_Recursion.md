@@ -1,12 +1,12 @@
 # Lecture Notes: Recursion, and When It Is the Wrong Tool
-## 145060 Programming · Unit 3 · Week 8 · Tuesday, October 27
+## 145060 Programming · Unit 3 · Week 8, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W08_Recursion.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W08_Recursion.pptx)
 
 If you missed class, you can learn this concept from this file alone. **This file has two parts.**
 Part 1 is today, on paper, with no Python to type. Part 2 is Python code you will run **after
-Thursday, October 29**, once you have functions and return values. The syllabus places recursion in
+Thursday of Week 8**, once you have functions and return values. The syllabus places recursion in
 Unit 3, and recursion in Python needs functions, which arrive tomorrow. So today you learn how it works
 and when to use it, and Thursday you get to watch it run.
 
@@ -256,7 +256,7 @@ fraction of a second.
 
 ---
 
-# Part 2 · After Thursday, October 29: run these
+# Part 2 · After Thursday of Week 8: run these
 
 **Do not start this part before Thursday's lesson on return values.** Every example uses `def`, from Wednesday, and two use `return`,
 from Thursday. Type each one and compare with the output shown.

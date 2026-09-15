@@ -1,7 +1,7 @@
 # Lab U6-03: Structured Peer Review
-## 145060 Programming · Unit 6 · Week 15
+## 145060 Programming · Unit 6 · Week 14
 
-**Gate:** 3 (open tooling). **Duration:** Build 1, Monday, December 14, 35 minutes. Pairs.
+**Gate:** 3 (open tooling). **Duration:** Build 1, Week 14, Monday, 35 minutes. Pairs.
 **Competencies:** 5.6.13 (perform code reviews: peer walkthrough, static analysis), 5.6.9 (review by peer
 walkthrough), 1.2.3 (verbal, nonverbal, and active listening).
 

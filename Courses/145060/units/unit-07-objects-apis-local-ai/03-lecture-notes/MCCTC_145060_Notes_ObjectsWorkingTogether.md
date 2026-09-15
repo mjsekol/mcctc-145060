@@ -1,8 +1,8 @@
 # Lecture Notes: Objects Working Together
-## 145060 Programming · Unit 7 · Week 16 · Thursday
+## 145060 Programming · Unit 7 · Week 15 · Thursday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_ObjectsTogether.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W16_ObjectsTogether.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_ObjectsTogether.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W15_ObjectsTogether.pptx)
 
 If you missed class, you can learn this concept from this file alone. This is the day
 the pieces connect into the shape of the real project.

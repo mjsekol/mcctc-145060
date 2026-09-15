@@ -1,5 +1,5 @@
 # Problem Drop #4
-## 145060 Programming · Unit 7 · Week 17 · Friday, January 15
+## 145060 Programming · Unit 7 · Week 16, Friday
 
 **75 minutes. Individual.** Full tooling. This is not a lab with steps. You get a real,
 messy annoyance, and you decide what to build.

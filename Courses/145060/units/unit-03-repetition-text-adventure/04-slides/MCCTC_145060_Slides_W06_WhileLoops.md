@@ -121,7 +121,7 @@ Image: Two short terminal error lines stacked on a navy background.
 - Build 1: Storm Relay game loop skeleton
 - From yesterday's pseudocode: while playing
 - move counts toward the storm, quit ends it
-- Build 2: Gate 2 review of AI decision code
-Speaker notes: Build 1 turns yesterday's pseudocode into your first real loop. No rooms yet. A while playing loop that reads a command, where move adds one toward a five move storm limit, quit sets playing to False, and anything else says it is not a command. Count your iterations. Five moves should end the game on the fifth, not the fourth or sixth. Build 2 is this week's Gate 2, reviewing AI code built from Unit 2 decisions, and it is due by the end of the block.
+- Build 2: trace a loop before you run it
+Speaker notes: Build 1 turns yesterday's pseudocode into your first real loop. No rooms yet. A while playing loop that reads a command, where move adds one toward a five move storm limit, quit sets playing to False, and anything else says it is not a command. Count your iterations. Five moves should end the game on the fifth, not the fourth or sixth. Build 2 is loop tracing: answer the three self-check questions in the notes, then fill in a trace table for your storm loop before you run it. Tomorrow, Friday, is this week's Gate 2.
 Image: A terminal showing a short game loop session ending in GAME OVER, navy and accent blue.
 ---

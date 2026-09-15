@@ -1,8 +1,8 @@
 # Lecture Notes: Why Classes
-## 145060 Programming · Unit 7 · Week 16 · Monday
+## 145060 Programming · Unit 7 · Week 15 · Monday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_WhyClasses.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W16_WhyClasses.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_WhyClasses.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W15_WhyClasses.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type every
 example.

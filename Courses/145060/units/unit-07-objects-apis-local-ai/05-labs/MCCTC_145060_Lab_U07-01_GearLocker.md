@@ -1,5 +1,5 @@
 # Lab U7-01: Gear Locker
-## 145060 Programming · Unit 7 · Week 16
+## 145060 Programming · Unit 7 · Week 15
 
 **Gate:** 3 (open tooling). **Duration:** three Build blocks, Tuesday through Thursday.
 **Competencies:** 5.3.12 (classes, objects, methods), 5.5.5 (naming and comments).

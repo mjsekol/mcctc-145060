@@ -1,5 +1,5 @@
 # Lecture Notes: Return Values and Local Scope
-## 145060 Programming · Unit 4 · Week 8 · Thursday, October 29
+## 145060 Programming · Unit 4 · Week 8, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W08_ReturnValuesAndScope.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W08_ReturnValuesAndScope.pptx)

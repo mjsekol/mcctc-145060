@@ -1,5 +1,5 @@
 # Problem Drop #3
-## 145060 Programming · Unit 6 · Thursday, December 17, 2026 · Build 2
+## 145060 Programming · Unit 6 · Week 14, Thursday · Build 2
 
 **40 minutes. Individual. Gate 3:** full tooling, AI allowed with a usage log entry.
 **30 points,** Lab & Practice.

@@ -1,8 +1,8 @@
 # Lecture Notes: Calling a Local Model and Parsing Its Reply
-## 145060 Programming · Unit 7 · Week 17 · Thursday
+## 145060 Programming · Unit 7 · Week 16 · Thursday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W17_CallingALocalModel.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W17_CallingALocalModel.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_CallingALocalModel.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W16_CallingALocalModel.pptx)
 
 If you missed class, you can learn this concept from this file alone. You need the lab's
 stub model server running to try the examples.

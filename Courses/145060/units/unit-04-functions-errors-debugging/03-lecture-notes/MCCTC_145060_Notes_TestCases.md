@@ -1,11 +1,11 @@
 # Lecture Notes: Test Cases, and Testing a Program Against Them
-## 145060 Programming · Unit 4 · Week 9 · Thursday, November 5
+## 145060 Programming · Unit 4 · Week 9, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W09_TestCases.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W09_TestCases.pptx)
 
 If you missed class, you can learn this concept from this file alone. You need functions that return
-values (October 29) and `try` and `except` (November 3).
+values (Thursday of Week 8) and `try` and `except` (Tuesday of Week 9).
 
 **Today is one concept: a test case is an input and the output you expect, decided before you run
 anything, and a test is code that checks it for you.** You need two small pieces of plumbing to make that
@@ -234,7 +234,7 @@ Every check runs. The failure names the test case, the expected value, and the a
 
 Three details to notice:
 
-- **`check` returns 1 or 0, and the caller adds it up.** That is the `moves = take_step(moves)` pattern from October 29: pass the value in, get the new value back,
+- **`check` returns 1 or 0, and the caller adds it up.** That is the `moves = take_step(moves)` pattern from Thursday of Week 8: pass the value in, get the new value back,
   store it. In Unit 6, once you have lists, the same helper keeps a list of results instead.
 - **`outcome` turns a raised `ValueError` into a value `check` can compare.** Testing that bad input is refused is as important as testing that good input works.
 - **Labels start with the test case ID.** When a check fails in three weeks, the ID takes you straight back to the table and the reason the case exists.

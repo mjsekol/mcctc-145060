@@ -1,5 +1,5 @@
 # Additional Resources · Week 10
-## 145060 Programming · November 9-13, 2026
+## 145060 Programming · Week 10
 ### Topics: lists, dictionaries, sets, and tables of dictionaries
 
 Links marked **Confident** or **[VERIFY]**, same standard as every week. A **[VERIFY]** link has

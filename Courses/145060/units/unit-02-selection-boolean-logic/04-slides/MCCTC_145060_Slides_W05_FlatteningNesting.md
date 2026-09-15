@@ -121,8 +121,8 @@ Image: None. This slide is code.
 ## Slide 10: What you are about to build
 - Build 1: Decision Engine, keep building
 - Apply the decision rule to your own nesting
-- Build 2: Gate 2 review of AI code
-- It validates input, and it looks right
-Speaker notes: Build 1 is your Decision Engine. Before you add anything, look at every place you nested. For each one, name which of the four cases it is. If your nesting is a tree, keep it and say so in a comment. If it is a pyramid of requirements, flatten it and prove the outputs did not change. Build 2 is Gate 2. An AI wrote a program that checks whether someone is eligible for something. It is well formatted and confident, and one of its five defects sits exactly on a boundary.
+- Build 2: run every decision table row against your engine
+- Tomorrow: Gate 2 review of AI code
+Speaker notes: Build 1 is your Decision Engine. Before you add anything, look at every place you nested. For each one, name which of the four cases it is. If your nesting is a tree, keep it and say so in a comment. If it is a pyramid of requirements, flatten it and prove the outputs did not change. Build 2 is still your engine. Run it once for every row of your decision table, typing exactly what the row says, and mark each row match or no match. Fix a mismatch, run the row again, and commit. Tomorrow is Gate 2. An AI wrote a program that checks whether someone is eligible for something. It is well formatted and confident, and one of its five defects sits exactly on a boundary.
 Image: A code review checklist on a clipboard beside a terminal, navy and accent blue.
 ---

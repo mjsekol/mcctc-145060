@@ -1,5 +1,5 @@
 # Lab U7-04: Study Hall Security Review
-## 145060 Programming · Unit 7 · Week 18
+## 145060 Programming · Unit 7 · Week 17
 
 **Gate:** 2 in spirit, you are reviewing code you did not write, then repairing it.
 **Duration:** three Build blocks, Tuesday through Thursday.

@@ -1,5 +1,5 @@
 # Additional Resources · Week 2
-## 145060 Programming · September 14-18, 2026
+## 145060 Programming · Week 2
 ### Topics: evaluating AI output, ownership and licensing, variables and types
 
 **About the links.** Marked **Confident** or **[VERIFY]**, same as Week 1. Broken

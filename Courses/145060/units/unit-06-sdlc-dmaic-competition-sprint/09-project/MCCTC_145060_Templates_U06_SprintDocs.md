@@ -20,7 +20,7 @@ For the decision log and the AI usage log, keep using the templates from Unit 0:
 
 ## docs/charter.md
 
-*Due Monday, November 30, end of Build 2. Updated Tuesday after the interview.*
+*Due Week 12, Monday, end of Build 2. Updated Tuesday after the interview.*
 
 ```markdown
 # Project Charter · <team name>
@@ -64,7 +64,7 @@ Every member types their name to agree: <names>
 
 ## docs/requirements.md
 
-*Version 1 due Tuesday, December 1. Signed by the stakeholder Friday, December 4.*
+*Version 1 due Week 12, Tuesday. Signed by the stakeholder on Friday of Week 12.*
 
 *Every requirement gets at least one acceptance criterion. A criterion is written so
 that a person who has never met you could run it and agree whether it passed.*
@@ -95,7 +95,7 @@ Changes after sign-off go through the question log and a change request.
 
 ## docs/question_log.md
 
-*Started Tuesday, December 1. Used most in Week 14, when the stakeholder is not in
+*Started on Tuesday of Week 12. Used most in Week 13, when the stakeholder is not in
 the room.*
 
 ```markdown
@@ -110,7 +110,7 @@ the room.*
 
 ## docs/timeline.md
 
-*Due Wednesday, December 2, end of Build 2. Kept current by the Facilitator.*
+*Due Week 12, Wednesday, end of Build 2. Kept current by the Facilitator.*
 
 ```markdown
 # Timeline · <team name>
@@ -119,8 +119,8 @@ the room.*
 | Constraint | Kind | Why it exists | What it rules out |
 |---|---|---|---|
 | Runs on a lab machine, standard library only | Technical | <why> | <what> |
-| Acceptance demo Friday Dec 18 | Time | <why> | <what> |
-| Week 14 has no instruction and some members are at BPA | People | <why> | <what> |
+| Acceptance demo Week 14 Fri | Time | <why> | <what> |
+| Week 13 has no instruction and some members are at BPA | People | <why> | <what> |
 
 ## Baseline measurement (Measure)
 <How does the stakeholder do this today, and how do you know it is a problem?
@@ -130,7 +130,7 @@ Example shape: "In the sample log, 3 of 24 rows have a problem nobody would noti
 ## Milestones
 | Day | Date | Milestone | Owner | Done when |
 |---|---|---|---|---|
-| 5 | Fri Dec 4 | Requirements and acceptance tests signed | Stakeholder Liaison | Signature in requirements.md |
+| 5 | Week 12 Fri | Requirements and acceptance tests signed | Stakeholder Liaison | Signature in requirements.md |
 | ... | | | | |
 
 ## Capacity
@@ -143,7 +143,7 @@ If work is bigger than capacity, what we cut first: <item>
 
 ## docs/test_plan.md
 
-*Due Thursday, December 3, end of Build 2.*
+*Due Week 12, Thursday, end of Build 2.*
 
 ```markdown
 # Test Plan · <team name>
@@ -167,7 +167,7 @@ Never from running your own program.>
 
 ## docs/design.md
 
-*Due Tuesday, December 8, end of Build 1. Written in Week 14.*
+*Due Week 13, Tuesday, end of Build 1. Written in Week 13.*
 
 ```markdown
 # Design Notes (Analyze) · <team name>
@@ -191,7 +191,7 @@ Never from running your own program.>
 
 ## docs/standups.md
 
-*One entry per build day, starting Monday, November 30. In Week 14 these are written,
+*One entry per build day, starting Monday of Week 12. In Week 13 these are written,
 because nobody is running them for you.*
 
 ```markdown
@@ -210,7 +210,7 @@ Decision made today, if any: <see decision log #>
 
 ## docs/sprint_review_1.md
 
-*Due Friday, December 11, end of Build 1. Written, because the stakeholder is not in
+*Due Week 13, Friday, end of Build 1. Written, because the stakeholder is not in
 the room that day.*
 
 ```markdown
@@ -249,7 +249,7 @@ response. Use the scoring form in
 
 ## docs/change_impact.md
 
-*Due Wednesday, December 16, end of Build 1. The change request arrives that
+*Due Week 14, Wednesday, end of Build 1. The change request arrives that
 morning.*
 
 ```markdown
@@ -280,7 +280,7 @@ Checks before: <count passing> · Checks after: <count passing> · New checks ad
 
 ## docs/control_plan.md
 
-*Due Friday, December 18.*
+*Due Week 14, Friday.*
 
 ```markdown
 # Control Plan · <team name>
@@ -302,7 +302,7 @@ v1.1 at commit <hash>. Any change after this starts with a change impact record.
 
 ## docs/retrospective.md
 
-*Friday, December 18, Build 2. Fifteen minutes as a team, written down.*
+*Week 14, Friday, Build 2. Fifteen minutes as a team, written down.*
 
 *A retrospective is about the process, not the people. "A teammate was slow" is not a
 retrospective finding. "We assigned the Test Lead two roles during BPA week and the
@@ -325,7 +325,7 @@ Change request impact: <n> functions, <n> checks
 ## Try next time
 - <one concrete change, and how you would know it worked>
 
-## The Week 14 question
+## The Week 13 question
 What did your plan get right or wrong about losing a week, and what would you plan
 differently for a team that loses its instructor mid-sprint?
 ```

@@ -1,9 +1,9 @@
 # Project: Text Adventure v1
-## 145060 Programming · Unit 3 · Due end of block, Tuesday, October 27, 2026
+## 145060 Programming · Unit 3 · Due end of block, Week 8, Tuesday
 
 **Mode:** solo. **Gate:** 3, full tooling, decision log required. **Periods:** Build 2 every day
-from Monday, October 19 through Tuesday, October 27. The modeling practice on October 14 and the
-`while` loop skeleton on October 15 are the warm-up.
+from Monday of Week 7 through Tuesday of Week 8. The modeling practice on Wednesday of Week 6 and the
+`while` loop skeleton on Thursday of Week 6 are the warm-up.
 
 **Competencies:** 5.3.6 (repetition control structures), 5.3.8 (nested structures), 5.1.3
 (model the solution with flowcharts, IPO charts, decision trees, and pseudocode), 5.1.2
@@ -12,7 +12,7 @@ from Monday, October 19 through Tuesday, October 27. The modeling practice on Oc
 
 **This is version 1 of four.** The same game grows in Unit 4 (functions and error handling), Unit 5
 (data files and save games), and Unit 7 (a local language model writes room descriptions). Build a
-world you will still want to work on in January.
+world you will still want to work on at the end of the semester.
 
 ---
 
@@ -29,7 +29,7 @@ Read this as though a person said it to you.
 > nobody cares. Some crash the second a nine-year-old mashes the keyboard, and then I am the one who has
 > to figure out how to restart it. And some are so confusing that nobody gets past the first room.
 >
-> I do not care what the game is about. October is coming, so a spooky one would be a hit with some kids,
+> I do not care what the game is about. A spooky one would be a hit with some kids,
 > but plenty of kids hate scary stuff, so do not make every game a haunted house. It has to be something
 > I would put in front of an eleven-year-old.
 >
@@ -146,13 +146,13 @@ the response, what you changed, and why. No personal information goes into any p
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Mon Oct 19, first 10 minutes of Build 2 | Setting, goal, how you win, and how you lose, in four sentences |
-| **Measure** | Mon Oct 19, Build 2 | Room map and IPO chart with State |
-| **Analyze** | Mon Oct 19, end of Build 2 | Flowchart and pseudocode **committed and pushed**. No `adventure.py` yet. If you run out of time, finish before you write any code on Tuesday |
-| **Improve** | Tue Oct 20 to Mon Oct 26 | Build it. One daily goal per block, a commit at the end of every block, a classmate playtest Friday |
-| **Control** | Mon Oct 26 to Tue Oct 27 | Test scripts passing, README complete, known limitations observed |
+| **Define** | Week 7 Mon, first 10 minutes of Build 2 | Setting, goal, how you win, and how you lose, in four sentences |
+| **Measure** | Week 7 Mon, Build 2 | Room map and IPO chart with State |
+| **Analyze** | Week 7 Mon, end of Build 2 | Flowchart and pseudocode **committed and pushed**. No `adventure.py` yet. If you run out of time, finish before you write any code on Tuesday |
+| **Improve** | Week 7 Tue to Week 8 Mon | Build it. One daily goal per block, a commit at the end of every block, a classmate playtest Friday |
+| **Control** | Week 8 Mon to Week 8 Tue | Test scripts passing, README complete, known limitations observed |
 
-You practiced all four models on the class world, Storm Relay, on October 14. Monday you do the same four for **your** world, and you
+You practiced all four models on the class world, Storm Relay, on Wednesday of Week 6. Monday you do the same four for **your** world, and you
 already know how.
 
 **Agile lives inside Improve.** Each Build 2 starts with one sentence in your decision log: today's goal. It ends with a commit and one sentence: what
@@ -167,20 +167,20 @@ that never fires. Both are visible on a flowchart in ten minutes.
 
 | Day | Build 2 goal |
 |---|---|
-| Wed Oct 14 | Modeling practice on Storm Relay. This brief is handed out. Start thinking about your setting. |
-| Thu Oct 15 | `while` loops, and a Storm Relay loop skeleton. Pick your setting over the long weekend. |
-| Fri Oct 16 | No school. |
-| Mon Oct 19 | Define, Measure, Analyze for **your** game: four sentences, room map, IPO chart, flowchart, pseudocode. Committed and pushed. **No code.** |
-| Tue Oct 20 | First code, after the game loop lesson. Constants, state variables, intro, a `while playing` loop that shows every room, movement for every exit, your win state, and the report after the loop. |
-| Wed Oct 21 | Input handling. Empty, unknown, capitals, blocked moves, `help`, and a validation loop for any number the game asks for. |
-| Thu Oct 22 | Lose states, the extra state variable, and a `for` loop doing real work. |
-| Fri Oct 23 | Playtest swap. A classmate plays your game with no help from you and writes down every place they got stuck or it broke. |
-| Mon Oct 26 | Test scripts for every ending. Fix what the playtest found. README draft. |
-| Tue Oct 27 | README complete, known limitations, final commit and push **by the end of the block. Due.** |
-| Fri Oct 30 | Demos. |
+| Week 6 Wed | Modeling practice on Storm Relay. This brief is handed out. Start thinking about your setting. |
+| Week 6 Thu | `while` loops, and a Storm Relay loop skeleton. Start narrowing down your setting. |
+| Week 6 Fri | No new content. Gate 2 in Build 1. Pick your setting before Monday, and catch up on anything from this week. |
+| Week 7 Mon | Define, Measure, Analyze for **your** game: four sentences, room map, IPO chart, flowchart, pseudocode. Committed and pushed. **No code.** |
+| Week 7 Tue | First code, after the game loop lesson. Constants, state variables, intro, a `while playing` loop that shows every room, movement for every exit, your win state, and the report after the loop. |
+| Week 7 Wed | Input handling. Empty, unknown, capitals, blocked moves, `help`, and a validation loop for any number the game asks for. |
+| Week 7 Thu | Lose states, the extra state variable, and a `for` loop doing real work. |
+| Week 7 Fri | Playtest swap. A classmate plays your game with no help from you and writes down every place they got stuck or it broke. |
+| Week 8 Mon | Test scripts for every ending. Fix what the playtest found. README draft. |
+| Week 8 Tue | README complete, known limitations, final commit and push **by the end of the block. Due.** |
+| Week 8 Fri | Demos. |
 
-**Congressional App Challenge teams:** the CAC deadline is Monday, October 26. Your v1 is still due Tuesday. Talk to your instructor this week, not
-on Monday.
+**Congressional App Challenge teams:** the CAC deadline usually falls in Week 8. Your instructor will confirm this year's date and time from the official
+site. Your v1 is still due Tuesday of Week 8. Talk to your instructor during Week 7, not on the deadline day.
 
 ---
 
@@ -223,7 +223,7 @@ for v1.
 
 ## The five-minute demo
 
-Friday, October 30. Some of you present, everybody submits.
+Week 8, Friday. Some of you present, everybody submits.
 
 1. **The game, in two sentences.** Setting and goal. (20 seconds)
 2. **Show your flowchart and one line of your commit history** proving it came before the code. (40 seconds)

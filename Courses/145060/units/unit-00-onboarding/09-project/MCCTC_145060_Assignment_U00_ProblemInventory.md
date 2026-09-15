@@ -1,5 +1,5 @@
 # Problem Inventory
-## 145060 Programming · Unit 0 · Week 1 · Due Friday, September 11
+## 145060 Programming · Unit 0 · Week 1 · Due Friday
 
 **Note on artifact type.** This is a written deliverable, not a coding project, so it
 has no reference implementation. It is filed here because it is the backlog every

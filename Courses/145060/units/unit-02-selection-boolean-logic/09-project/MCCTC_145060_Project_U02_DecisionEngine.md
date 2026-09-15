@@ -1,8 +1,8 @@
 # Project: Decision Engine
-## 145060 Programming · Unit 2 · Due Tuesday, October 13, 2026, end of block
+## 145060 Programming · Unit 2 · Due Week 6, Tuesday, end of block
 
-**Mode:** solo. **Gate:** 3, full tooling. **Periods:** five work blocks between Monday,
-October 5 and Tuesday, October 13, listed in the milestone schedule.
+**Mode:** solo. **Gate:** 3, full tooling. **Periods:** seven work blocks between Week 5, Monday and
+Week 6, Tuesday, listed in the milestone schedule.
 
 **Competencies:** 5.3.5 (conditional control structures), 5.3.4 (relational operators and
 compound conditions), 5.3.3 (logical operators), 5.3.2 (solve a truth table, through your
@@ -94,7 +94,7 @@ your-engine-name/
 
 | You may not | Why |
 |---|---|
-| Use a loop | Loops arrive Thursday, October 15. Your engine classifies one thing per run. |
+| Use a loop | Loops arrive Week 6, Thursday. Your engine classifies one thing per run. |
 | Use a function, list, or dictionary | Units 4 and 5. Writing one you cannot explain fails the course standard. |
 | Import a library | The stakeholder wants something that runs anywhere, and you have not been taught dependencies. |
 | Train or call any AI model to make the decision | The brief asks for rules a person can see and defend. That is the point of a hand-written decision tree. |
@@ -109,11 +109,11 @@ engine must be something you can explain.
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Mon Oct 5, end of Build 2 | The decision in one sentence, who makes it, how often, and what goes wrong now |
-| **Measure** | Mon Oct 5, end of Build 2 | Every input with its type and its valid range; every outcome category |
-| **Analyze** | Tue Oct 6 and Wed Oct 7, Build 2 | The rules written as sentences with every **and**, **or**, and **not** underlined; the decision tree drawn; a decision table listing input combinations and the outcome each one should get |
-| **Improve** | Wed Oct 7 Build 2 and Thu Oct 8 Build 1 | Build it. Flatten any nesting that is a pyramid of requirements. |
-| **Control** | Tue Oct 13, Build 2 | Run every row of your test table and record the actual results. README complete. Push. Demo. |
+| **Define** | Week 5 Mon, end of Build 2 | The decision in one sentence, who makes it, how often, and what goes wrong now |
+| **Measure** | Week 5 Mon, end of Build 2 | Every input with its type and its valid range; every outcome category |
+| **Analyze** | Week 5 Tue and Week 5 Wed, Build 2 | The rules written as sentences with every **and**, **or**, and **not** underlined; the decision tree drawn; a decision table listing input combinations and the outcome each one should get |
+| **Improve** | Week 5 Wed Build 2 through Week 5 Fri Build 2 | Build it. Flatten any nesting that is a pyramid of requirements. Run every row of your decision table against it and fix every mismatch. |
+| **Control** | Week 6 Tue, Build 2 | Run every row of your test table and record the actual results. README complete. Push. Demo. |
 
 **Analyze is the phase that saves you.** Your decision table from Wednesday **is** your test table. Write
 the expected outcome for every row before you write a line of code, and you will know the instant your
@@ -125,16 +125,17 @@ program disagrees with you.
 
 | Day | Block | Goal |
 |---|---|---|
-| Mon Oct 5 | Build 2 | Define and Measure. **No code.** |
-| Tue Oct 6 | Build 2 | Analyze: rules as sentences, decision tree drawn |
-| Wed Oct 7 | Build 2 | Analyze: decision table, 15 minutes. Improve: start the engine. |
-| Thu Oct 8 | Build 1 | Improve: every path runs. Apply the flattening rule to your own nesting. |
-| Fri Oct 9 | No class | |
-| Mon Oct 12 | none | Build 1 is the club sign-up lab and Build 2 is Problem Drop 1. |
-| Tue Oct 13 | Build 2 | Control: run the test table, finish README, push, demo circles. **Due end of block.** |
+| Week 5 Mon | Build 2 | Define and Measure. **No code.** |
+| Week 5 Tue | Build 2 | Analyze: rules as sentences, decision tree drawn |
+| Week 5 Wed | Build 2 | Analyze: decision table, 15 minutes. Improve: start the engine. |
+| Week 5 Thu | Build 1 | Improve: every path runs. Apply the flattening rule to your own nesting. |
+| Week 5 Thu | Build 2 | Improve: run your decision table rows against the engine. Mark each MATCH or NO MATCH and fix the mismatches. |
+| Week 5 Fri | Build 2, after the Gate 2 reveal | Improve: **every row of your decision table run and marked, and every outcome reached.** Then draft README sections 1 through 3 and 5. |
+| Week 6 Mon | none | Build 1 is the club sign-up lab and Build 2 is Problem Drop 1. |
+| Week 6 Tue | Build 2 | Control: run the test table, finish README, push, demo circles. **Due end of block.** |
 
-**Monday October 12 has no project time.** If your engine does not run every path by the end of Thursday,
-October 8, tell your instructor on Thursday, not Tuesday.
+**Week 6, Monday has no project time.** If your engine does not reach every outcome by the end of Week 5, Friday, tell your
+instructor on Friday, not Tuesday.
 
 ---
 
@@ -172,7 +173,7 @@ read your decision tree out loud? If the tree does not fit on one sheet of paper
 
 ## The five-minute demo
 
-Tuesday, October 13, in a circle of four classmates.
+Week 6, Tuesday, in a circle of four classmates.
 
 1. **The decision, in one sentence.** Who makes it and how often. (30 seconds)
 2. **Show your decision tree.** Point to the place where the next question depends on the answer. (60 seconds)

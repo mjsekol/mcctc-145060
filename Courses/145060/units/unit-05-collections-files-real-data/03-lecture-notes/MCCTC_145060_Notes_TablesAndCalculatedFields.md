@@ -1,5 +1,5 @@
 # Lecture Notes: Tables in Code and Calculated Fields
-## 145060 Programming · Unit 5 · Week 10 · Thursday, November 12
+## 145060 Programming · Unit 5 · Week 10, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W10_TablesAndCalculatedFields.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W10_TablesAndCalculatedFields.pptx)
 

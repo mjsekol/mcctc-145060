@@ -1,5 +1,5 @@
 # Additional Resources · Week 8
-## 145060 Programming · October 26-30, 2026
+## 145060 Programming · Week 8
 ### Topics: algorithms and data structures, recursion, defining functions, return values and scope
 
 Links marked **Confident** or **[VERIFY]**. A site marked Confident with a section marked [VERIFY] means the site is
@@ -28,7 +28,7 @@ in the third edition before assigning a chapter number.
 **Why this one.** Tuesday's trace table is a paper version of a stack diagram. Downey's diagrams show the same thing with real function calls, which is what students
 see on Thursday.
 
-**Timing warning.** The chapter uses `def` throughout. Assign it **after Thursday, October 29**, as reading alongside Part 2 of the Recursion notes, not on Tuesday.
+**Timing warning.** The chapter uses `def` throughout. Assign it **after Thursday's lesson**, as reading alongside Part 2 of the Recursion notes, not on Tuesday.
 
 **Time.** 30 minutes. **Level.** On-level.
 
@@ -109,8 +109,8 @@ videos, reached from `https://www.py4e.com/`, include one on functions. Watch it
 
 **Official site:** `https://www.congressionalappchallenge.us/` · **[VERIFY].** Confirm this is the official site before sending students to it.
 
-**What it is for this week.** The competition's own rules, eligibility requirements, required materials, and deadline. The course syllabus lists the deadline as October 26,
-12:00 pm ET. **The official site is the only authority on the rules.** Nothing in this course's materials states them.
+**What it is for this week.** The competition's own rules, eligibility requirements, required materials, and deadline. The deadline usually falls in Week 8.
+Confirm this year's date and time on the official site before the week starts. **The official site is the only authority on the rules and the deadline.** Nothing in this course's materials states them.
 
 Use it with `09-project/MCCTC_145060_Checklist_CAC_Submission.md`.
 
@@ -120,7 +120,7 @@ Use it with `09-project/MCCTC_145060_Checklist_CAC_Submission.md`.
 
 ## 8. Side quest
 
-**SQ-07 The Halloween Build** unlocks late October. Full description in `Courses/Misc/MCCTC_Side_Quest_Catalog_2026-2027.md`.
+**SQ-07 The Halloween Build** unlocks in Week 8. Full description in `Courses/Misc/MCCTC_Side_Quest_Catalog_2026-2027.md`.
 
 **What it is.** Extend a finished text adventure with a state change: a room that changes when you return, an item that goes missing, an exit that appears only after you
 visit three other rooms. **Setting is the student's choice and horror is optional.**

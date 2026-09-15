@@ -1,7 +1,7 @@
 # Project: API-Consuming Application
 ## 145060 Programming · Unit 7 · Consume a Real-Shaped API
 
-**Mode:** solo. **Gate:** 3, full tooling. **Periods:** Week 17, alongside the API labs.
+**Mode:** solo. **Gate:** 3, full tooling. **Periods:** Week 16, alongside the API labs.
 
 **Competencies:** 5.5.7 (read inputs from an API), 5.5.4 (call other programs), 5.3.10
 (error handling), 3.2.1 and 9.3.4 (secure configuration), 5.3.12 (classes to model the
@@ -87,11 +87,11 @@ api-app/
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Mon Jan 11, end of Build 2 | The one thing your program tells the user, in one sentence |
-| **Measure** | Mon Jan 11, end of Build 2 | Every endpoint you call, and every way each can fail |
-| **Analyze** | Tue Jan 12, end of Build 2 | On paper: the message for each failure, and how you tell an empty result from a failure |
-| **Improve** | Tue to Thu Week 17 | Build it: the request, the failure branches, the class, the config |
-| **Control** | Thu Jan 14, end of Build 2 | Tests pass, README complete, a success and two failures recorded |
+| **Define** | Week 16 Mon, end of Build 2 | The one thing your program tells the user, in one sentence |
+| **Measure** | Week 16 Mon, end of Build 2 | Every endpoint you call, and every way each can fail |
+| **Analyze** | Week 16 Tue, end of Build 2 | On paper: the message for each failure, and how you tell an empty result from a failure |
+| **Improve** | Tue to Thu Week 16 | Build it: the request, the failure branches, the class, the config |
+| **Control** | Week 16 Thu, end of Build 2 | Tests pass, README complete, a success and two failures recorded |
 
 **Analyze is the checkpoint that saves this project.** Write the message for each failure
 on paper before you code. A student who has not decided what a timeout should say will
@@ -103,10 +103,10 @@ write one catch-all and lose the whole point.
 
 | Day | Goal |
 |---|---|
-| Mon Jan 11 (W17) | Fixture running, one successful request parsed and displayed |
-| Tue Jan 12 (W17) | Every failure branch, each with its own message |
-| Wed Jan 13 (W17) | Config from the environment, the reply class, input validation |
-| Thu Jan 14 (W17) | Tests, README, recorded runs. Submit |
+| Week 16 Mon | Fixture running, one successful request parsed and displayed |
+| Week 16 Tue | Every failure branch, each with its own message |
+| Week 16 Wed | Config from the environment, the reply class, input validation |
+| Week 16 Thu | Tests, README, recorded runs. Submit |
 
 ---
 

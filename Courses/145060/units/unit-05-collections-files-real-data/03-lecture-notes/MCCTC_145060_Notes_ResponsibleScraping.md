@@ -1,5 +1,5 @@
 # Lecture Notes: Getting Data Off a Website, Responsibly
-## 145060 Programming · Unit 5 · Week 11 · Thursday, November 19
+## 145060 Programming · Unit 5 · Week 11, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W11_ResponsibleScraping.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W11_ResponsibleScraping.pptx)
 

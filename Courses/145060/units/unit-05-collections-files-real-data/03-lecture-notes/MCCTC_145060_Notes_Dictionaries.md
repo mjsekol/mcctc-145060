@@ -1,5 +1,5 @@
 # Lecture Notes: Dictionaries
-## 145060 Programming · Unit 5 · Week 10 · Tuesday, November 10
+## 145060 Programming · Unit 5 · Week 10, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W10_Dictionaries.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W10_Dictionaries.pptx)
 

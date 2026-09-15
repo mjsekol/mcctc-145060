@@ -1,5 +1,5 @@
 # Gate 2: Adversarial Review · Week 3
-## 145060 Programming · Unit 1 · Friday, September 25
+## 145060 Programming · Unit 1 · Week 3, Friday
 
 **40 minutes.** Individual. You may and should run the code. You may not ask a model
 whether it is correct, because the model is what is being reviewed.

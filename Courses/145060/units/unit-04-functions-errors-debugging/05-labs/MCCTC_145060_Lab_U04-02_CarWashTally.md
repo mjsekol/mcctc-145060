@@ -2,8 +2,7 @@
 ## 145060 Programming · Unit 4 · Week 9
 
 **Gate:** 3 (open tooling). You may use a model to explain an error message. You may not ask one to refactor the program for you:
-the refactor is the skill. **Duration:** two Build 1 blocks, 35 minutes each. **Part 1:** Tuesday, November 3. **Part 2:** Wednesday,
-November 4.
+the refactor is the skill. **Duration:** two Build 1 blocks, 35 minutes each. **Part 1:** Tuesday of Week 9. **Part 2:** Wednesday of Week 9.
 **Competencies:** 5.3.9 (create and call functions), 5.3.10 (error handling), 5.5.1 (data validation), 5.4.5 (test the program using
 defined test cases), 5.4.6 (correct runtime errors).
 
@@ -198,8 +197,8 @@ should do for each, and make it do that, with a message that names the file. Do 
 Car $10 + tip $5. Raised $15 [None]
 ```
 
-**Cause:** `progress_bar` prints the bar instead of returning it. The bar appears on its own line, and the call hands `None` to the f-string. No error. This is October 29's
-bug. Replace the `print` with `return`.
+**Cause:** `progress_bar` prints the bar instead of returning it. The bar appears on its own line, and the call hands `None` to the f-string. No error. This is the bug from Thursday of
+Week 8. Replace the `print` with `return`.
 
 ### 2. `TypeError: progress_bar() missing 1 required positional argument: 'goal'`
 
@@ -221,7 +220,7 @@ UnboundLocalError: cannot access local variable 'raised' where it is not associa
 ```
 
 **Cause:** a function tries to add to a running total that lives outside it. Any name a function assigns to is local for the whole function. Pass the total in and return the
-new total, or keep the adding inside `main`. The October 29 notes have this exact error. Your names and line may differ.
+new total, or keep the adding inside `main`. The notes from Thursday of Week 8 have this exact error. Your names and line may differ.
 
 ### 4. `fc` reports `Suv $15` where `before.txt` says `SUV $15`
 

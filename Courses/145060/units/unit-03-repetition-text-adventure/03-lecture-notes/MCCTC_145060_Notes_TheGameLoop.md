@@ -1,5 +1,5 @@
 # Lecture Notes: The Game Loop Pattern
-## 145060 Programming · Unit 3 · Week 7 · Tuesday, October 20
+## 145060 Programming · Unit 3 · Week 7, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W07_TheGameLoop.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W07_TheGameLoop.pptx)
@@ -54,7 +54,7 @@ Two flags do two different jobs, and mixing them up is today's bug:
 
 ## Worked example 1: three rooms of Storm Relay
 
-This is the three-room slice you modeled on paper on October 14, as working code. The storm arrives
+This is the three-room slice you modeled on paper on Wednesday of Week 6, as working code. The storm arrives
 in 6 moves here so you can lose quickly while testing. The full game uses 20.
 
 ```python

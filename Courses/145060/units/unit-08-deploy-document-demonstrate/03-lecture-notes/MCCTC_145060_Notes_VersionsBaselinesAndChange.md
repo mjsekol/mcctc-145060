@@ -1,7 +1,7 @@
 # Lecture Notes: Versions, Baselines, and the Impact of Change
-## 145060 Programming · Unit 8 · Week 19 · Wednesday, January 27
+## 145060 Programming · Unit 8 · Week 18, Wednesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W19_BaselinesAndChange.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W19_BaselinesAndChange.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W18_BaselinesAndChange.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W18_BaselinesAndChange.pptx)
 
 If you missed class, you can learn this concept from this file alone. This concept is on
 the WebXam, and it is the last new idea of the semester. **Outcome 5.7, Configuration

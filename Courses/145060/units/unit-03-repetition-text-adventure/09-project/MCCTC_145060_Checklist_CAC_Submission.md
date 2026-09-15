@@ -1,5 +1,5 @@
 # Congressional App Challenge: Submission Checklist
-## 145060 Programming · Unit 3 · Deadline week, October 19-26, 2026
+## 145060 Programming · Unit 3 · Week 7 through Monday of Week 8
 
 **Why this exists.** A competition submission fails for boring reasons far more often than for bad code: a
 missing link, a video nobody can open, a form field left blank, a repository that only runs on one laptop. This
@@ -13,13 +13,13 @@ site is the only source for those.** Read it yourself, with your team, before yo
 instructor before you rely on it, and never enter your information on a site you reached from a search ad or a
 link somebody sent you.
 
-**The course syllabus lists the deadline as October 26 at 12:00 pm ET.** Class ends at 10:22. If you are
-submitting, plan to be finished **during class on Monday or earlier**, and confirm the official deadline and time
-zone on the official site this week.
+**The deadline usually falls in Week 8.** Your class plan treats Monday of Week 8 as the last class day to submit. Find this
+year's deadline, time, and time zone on the official site during Week 7, before you plan anything else. Class ends at 10:22, and anything
+after that happens outside class. If you are submitting, plan to be finished **during class, before the official deadline, and no later than Monday of Week 8.**
 
 ---
 
-## Part 1 · Read the official requirements (Monday, October 19)
+## Part 1 · Read the official requirements (Week 7, Monday)
 
 - [ ] Your whole team has read the current official rules page, not a summary of it
 - [ ] You have written down, in your own words, **every required item** the official site lists for a submission
@@ -49,7 +49,7 @@ These are course rules, not competition rules. They apply no matter what the com
 - [ ] **Every team member can explain every part of the app.** The course standard applies to competition work too
 - [ ] Anything you did not make yourself, such as images, sounds, or code, is allowed by its license and credited
 
-## Part 4 · Submit (by the end of class Monday, October 26, or earlier)
+## Part 4 · Submit (during class, before the official deadline, and no later than Monday of Week 8)
 
 - [ ] Every required field on the official submission form is complete
 - [ ] You re-read the whole submission once, slowly, before pressing submit
@@ -62,4 +62,4 @@ These are course rules, not competition rules. They apply no matter what the com
 
 - [ ] Your final commit is pushed, and it matches what you submitted
 - [ ] Your team wrote three sentences in your decision log: what you are proud of, what you cut, and what you would build next
-- [ ] Your text adventure v1 is still due **Tuesday, October 27**. Put it back on your plan for Monday's Build 2
+- [ ] Your text adventure v1 is still due **Tuesday of Week 8**. Put it back on your plan for Monday's Build 2

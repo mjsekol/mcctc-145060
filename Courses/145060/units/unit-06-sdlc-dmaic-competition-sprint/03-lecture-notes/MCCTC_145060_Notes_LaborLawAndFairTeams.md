@@ -1,8 +1,8 @@
 # Lecture Notes: The Fair Workplace: Labor Law, Bias, and Multicultural Teams
-## 145060 Programming · Unit 6 · Week 15 · Thursday, December 17
+## 145060 Programming · Unit 6 · Week 14, Thursday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_FairWorkplace.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W15_FairWorkplace.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W14_FairWorkplace.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W14_FairWorkplace.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.

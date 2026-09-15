@@ -1,5 +1,5 @@
 # Additional Resources · Week 3
-## 145060 Programming · September 21-25, 2026
+## 145060 Programming · Week 3
 ### Topic: strings, formatting, and slicing
 
 Links marked **Confident** or **[VERIFY]**, same standard as every week.

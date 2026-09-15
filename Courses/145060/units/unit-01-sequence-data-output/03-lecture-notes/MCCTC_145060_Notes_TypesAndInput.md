@@ -7,7 +7,7 @@ If you missed class, you can learn this concept from this file alone. Type every
 example, especially the one that does not crash.
 
 **This is the most important file in Unit 1.** Every program you write from here to
-January takes input from somebody. The bug this file describes does not produce an
+the end of the course takes input from somebody. The bug this file describes does not produce an
 error message, which means nothing will tell you when you have made it.
 
 ---
@@ -195,7 +195,7 @@ meaning. It could mean gluing or adding, so Python refuses to guess and stops.
 
 The `+` version is the better outcome. It failed loudly, at the exact line, and you
 fixed it in ten seconds. The `*` version succeeded, handed you garbage, and said
-nothing. You find that one in October when somebody reports a weird number in your
+nothing. You find that one weeks later when somebody reports a weird number in your
 text adventure, and by then you have no idea which line did it.
 
 An error message is a gift. Something that quietly does the wrong thing is not.

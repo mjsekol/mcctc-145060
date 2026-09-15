@@ -2,7 +2,7 @@
 ## 145060 Programming · Unit 3 · Week 7
 
 **Gate:** 3 (open tooling). **Duration:** two Build 1 blocks, 35 minutes each. Part 1 on
-Tuesday, October 20. Part 2 on Wednesday, October 21. **Competencies:** 5.3.6 (repetition
+Tuesday of Week 7. Part 2 on Wednesday of Week 7. **Competencies:** 5.3.6 (repetition
 control structures), 5.3.8 (nested structures), 5.1.3 (model the solution), 5.5.1 (data
 validation, first taste), 5.4.7 (debug logic errors).
 

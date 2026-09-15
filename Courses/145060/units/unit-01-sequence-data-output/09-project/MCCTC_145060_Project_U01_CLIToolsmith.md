@@ -1,5 +1,5 @@
 # Project: CLI Toolsmith
-## 145060 Programming · Unit 1 · Due Friday, October 2, 2026
+## 145060 Programming · Unit 1 · Due Week 4, Friday
 
 **Mode:** solo. **Gate:** 3, full tooling. **Periods:** four Build 2 blocks,
 Monday through Thursday of Week 4.
@@ -107,11 +107,11 @@ was invented while typing.
 
 | Day | Build 2 goal |
 |---|---|
-| Mon Sept 28 | Define and Measure. No code. |
-| Tue Sept 29 | Inputs collected and converted. Program runs and echoes them back. |
-| Wed Sept 30 | Calculations and formatted output. The tool works. |
-| Thu Oct 1 | README, sample run, limitations. Optional condition. Push. |
-| Fri Oct 2 | Demos and submission. |
+| Week 4 Mon | Define and Measure. No code. |
+| Week 4 Tue | Inputs collected and converted. Program runs and echoes them back. |
+| Week 4 Wed | Calculations and formatted output. The tool works. |
+| Week 4 Thu | README, sample run, limitations. Optional condition. Push. |
+| Week 4 Fri | Demos and submission. |
 
 ---
 

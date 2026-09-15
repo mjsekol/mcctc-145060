@@ -1,5 +1,5 @@
 # Lab U0-02: Infographic Autopsy
-## 145060 Programming · Unit 0 · Week 2 · Monday, September 14
+## 145060 Programming · Unit 0 · Week 2, Monday
 
 **Gate:** 2 (adversarial). **Duration:** two blocks, 35 and 40 minutes.
 **Competencies:** PRIMARY 1.2.1 (extract relevant, valid information and cite

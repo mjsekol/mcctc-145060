@@ -118,7 +118,7 @@ Image: Five small icons in a row, a tally, a sum, a trophy, a magnifier, and a f
 - Count, total, high score, low score, and a search
 - Step 4 starts the low score at 0 on purpose
 - Build 2: v1 test scripts, playtest fixes, README
-- CAC teams: confirm your submission before noon
-Speaker notes: Build one is the leaderboard lab. One pass through a night of game results answers four questions, and a second loop searches for a player's first big round and stops as soon as it finds it. Step four makes you start the low score at zero and record the result. Build two is your text adventure. Write your win and lose test scripts, fix what your playtester found Friday, and draft your README, because v1 is due at the end of the day tomorrow. Congressional App Challenge teams, today is the deadline, and I will check in with you first.
+- CAC teams: final checks and submission first
+Speaker notes: Build one is the leaderboard lab. One pass through a night of game results answers four questions, and a second loop searches for a player's first big round and stops as soon as it finds it. Step four makes you start the low score at zero and record the result. Build two is your text adventure. Write your win and lose test scripts, fix what your playtester found Friday, and draft your README, because v1 is due at the end of the day tomorrow. Congressional App Challenge teams, today is your last class day to submit, and I will check in with you first.
 Image: A four-line leaderboard summary above a search result line, navy and accent blue.
 ---

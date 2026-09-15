@@ -2,7 +2,7 @@
 ## 145060 Programming · Unit 4 · The Six-Step Troubleshooting Method
 
 **What this is for.** The syllabus asks you to select and apply a troubleshooting methodology, then document the problem
-and the verified solution. This course uses the **Six-Step Troubleshooting Method**, taught Monday, November 2. The notes
+and the verified solution. This course uses the **Six-Step Troubleshooting Method**, taught on Monday of Week 9. The notes
 are [`MCCTC_145060_Notes_TroubleshootingMethod.md`](../03-lecture-notes/MCCTC_145060_Notes_TroubleshootingMethod.md), and
 worked example 3 in them is a complete entry you can model yours on.
 

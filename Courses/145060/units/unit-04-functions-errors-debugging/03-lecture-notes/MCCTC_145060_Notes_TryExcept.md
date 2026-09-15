@@ -1,5 +1,5 @@
 # Lecture Notes: try and except for Failures You Can See Coming
-## 145060 Programming · Unit 4 · Week 9 · Tuesday, November 3
+## 145060 Programming · Unit 4 · Week 9, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W09_TryExcept.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W09_TryExcept.pptx)
@@ -224,7 +224,7 @@ The second call misspells the file name. Without the `try`, it would end with
 `FileNotFoundError: [Errno 2] No such file or directory: 'practise_log.txt'`. With it, the message says what to do.
 
 The message printed **before** `Days logged: 0` because the f-string has to call the function to get the number, and the function
-prints while it runs. `return 0` inside `except` ends the call early, the same way an early `return False` did on October 29.
+prints while it runs. `return 0` inside `except` ends the call early, the same way an early `return False` did on Thursday of Week 8.
 
 **Is returning 0 the right plan?** For a count shown on the screen, it is reasonable. For something like a bank balance, pretending a
 missing file means zero would be a silent lie. Deciding what the program should do instead is the design part of error handling, and

@@ -1,82 +1,85 @@
 # Gate 2: Adversarial Review · Week 16
-## 145060 Programming · Unit 7 · Friday, January 8
+## 145060 Programming · Unit 7 · Week 16, Thursday
 
 **40 minutes.** Individual. You may and should run the code. You may not ask a model
-whether it is correct, because the model is what is being reviewed.
+whether it is correct, because the model is what is being reviewed. Gate 2 runs Thursday
+this week so Friday can hold Problem Drop #4.
 
-The program is `gate2-w16-files/playlist.py`. Copy it and run it.
+The program is `gate2-w16-files/high_scores.py`. It talks to a fixture,
+`score_server.py`, in the same folder. Copy both and run them.
 
 ---
 
 ## What you are looking at
 
-Somebody handed an AI assistant the requirements in Part A and got the program in
-`playlist.py`. It runs. It is formatted well and the comments sound sure of themselves.
+Somebody handed an AI assistant the requirements in Part A and got `high_scores.py`. It
+runs and shows scores. Your job is to find what is wrong.
 
-**Five defects, one in each category:**
+**Five defects, one in each category:** Correctness, Security, Readability, Performance,
+Requirements Fit.
 
-| Dimension | What to look for |
-|---|---|
-| **Correctness** | It does not do what it says it does |
-| **Security** | It accepts input it should refuse, or trusts what it was given |
-| **Readability** | A name or comment that misleads the next reader |
-| **Performance** | Work done more times than it needs to be |
-| **Requirements Fit** | Something the spec asked for that is missing |
-
-**One of these does not show up until you make two playlists.** With one playlist, the
-program looks perfect. Read the spec, then try things the sample run does not.
+**One of these makes a failure look like success.** When the server is slow or down, the
+program says something that is not true. Run it against a slow server and read carefully.
 
 ---
 
 ## PART A: The requirements
 
-> Write `playlist.py` with a `Song` class and a `Playlist` class.
+> Write `high_scores.py` that shows the arcade high scores for one game from the score
+> API. It must:
 >
-> A `Song` has a title, an artist, and a length in **seconds**.
->
-> A `Playlist` has a name and its own list of songs. It must:
->
-> 1. Add a song with `add_song`. **Refuse a song whose length is zero or negative**, since
->    that is not a real song.
-> 2. Report the total length with `total_minutes`, as **whole minutes rounded down**.
-> 3. Report the **title of the longest song** with `longest`.
-> 4. Print a one-line `summary` with the name, the number of songs, the total minutes,
->    **and the title of the longest song**.
-> 5. Two different playlists must not share songs.
+> 1. Fetch the scores for the game named on the command line.
+> 2. Print the **top three** scores, highest first.
+> 3. Handle a **404, a timeout, and a rate limit (429) distinctly**, each with its own
+>    message that tells the user what happened.
+> 4. Keep the API key **out of the code file**, reading it from the environment.
+> 5. If the game exists but has no scores yet, say so.
 
 ---
 
 ## PART B: What the AI produced
 
-The code is in `gate2-w16-files/playlist.py`. Run it:
+The code is in `gate2-w16-files/high_scores.py`. Start the fixture, then run the client:
 
 ```
-python playlist.py
+python score_server.py
+python high_scores.py pixel-racer
 ```
 
-A real run:
+A real run against the normal server:
 
 ```
-Party Mix: 3 songs, 9 minutes total.
+pixel-racer: 4 scores on record
+Top three:
+  NovaFox      48210
+  PixelMoth    47990
 ```
 
-**Read that one line against the five requirements before you read the code.** One
-requirement is not met in that line alone.
+**Read those lines against the five requirements before you read the code.** Two things
+are already wrong in that output.
+
+The fixture has modes so you can trigger the failures:
+
+```
+python score_server.py --mode slow      every request takes 10 seconds
+python score_server.py --mode rate      every request is rate limited (429)
+python score_server.py --mode empty     the game exists but has no scores
+```
 
 ---
 
 ## What to submit
 
-For each defect: **file and line**, **dimension**, **what goes wrong for a real person or
-playlist**, and **the fix**. Then one final entry: **what I was unsure about**, naming
-something specific. That entry is scored and a blank costs more than a wrong guess.
+For each defect: **file and line**, **dimension**, **what goes wrong for a real user**,
+and **the fix**. Then one final entry: **what I was unsure about**, naming something
+specific. That entry is scored and a blank costs more than a wrong guess.
 
 ### How to spend 40 minutes
 
-- **First 5:** run it. Compare the output line to the five requirements.
-- **Next 10:** make a second playlist and add different songs to each. Watch what happens.
-- **Next 10:** add a song with 0 seconds, and a song with a negative length.
-- **Rest:** read each comment against the code under it. Ask whether it is true.
+- **First 5:** run it against the normal server. Count the scores printed.
+- **Next 10:** run it against the slow server and the rate server. Read what it says.
+- **Next 10:** read Part A one requirement at a time and point at the line that meets it.
+- **Rest:** read each comment and name against the code. Ask whether it is true.
 
 ---
 

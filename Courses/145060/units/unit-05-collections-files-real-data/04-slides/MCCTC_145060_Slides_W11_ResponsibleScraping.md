@@ -109,6 +109,6 @@ Image: Two separate gates in a row, both of which must be open.
 - Lab U5-05: scrape the Swap Shelf, politely
 - Run the site yourself in its own terminal
 - robots.txt, a two-second wait, a User-Agent
-- Build 2: pipeline ingest, from CSV or the site
-Speaker notes: Build one is the Swap Shelf Scraper lab. You start the club's website on your own computer, read its robots dot txt and terms, collect all three pages with a two second wait, and write the listings to a CSV. Step seven has you remove the wait on purpose and record the 429. Nobody in this class scrapes a real website for this lab. Build two is the ingest stage of your data pipeline.
+- Build 2: the data pipeline opens
+Speaker notes: Build one is the Swap Shelf Scraper lab. You start the club's website on your own computer, read its robots dot txt and terms, collect all three pages with a two second wait, and write the listings to a CSV. Step seven has you remove the wait on purpose and record the 429. Nobody in this class scrapes a real website for this lab. Keep the shelf dot CSV file your scraper writes. Build two opens the data pipeline project. Choose your route, write down every kind of mess in the data before any code, and read both sources into lists of dictionaries.
 Image: Two terminals side by side, a server log on the left and a scraper on the right.

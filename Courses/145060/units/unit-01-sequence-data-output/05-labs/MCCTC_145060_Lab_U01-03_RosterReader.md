@@ -1,5 +1,5 @@
 # Lab U1-03: Roster Reader
-## 145060 Programming · Unit 1 · Week 4 · Wednesday, September 30
+## 145060 Programming · Unit 1 · Week 4, Wednesday
 
 **Gate:** 3 (open tooling). **Duration:** Build 1, 35 minutes.
 **Competencies:** 5.5.7 (read inputs, including data files), 5.2.4 (string operations

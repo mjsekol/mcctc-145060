@@ -1,7 +1,7 @@
 # Lecture Notes: Implementation Plans and User Help
-## 145060 Programming · Unit 8 · Week 19 · Tuesday, January 26
+## 145060 Programming · Unit 8 · Week 18, Tuesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W19_DocsForTwoReaders.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W19_DocsForTwoReaders.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W18_DocsForTwoReaders.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W18_DocsForTwoReaders.pptx)
 
 If you missed class, you can learn this concept from this file alone. Run the commands.
 Documentation is the one part of a project people assume they can write without testing,

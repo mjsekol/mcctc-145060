@@ -1,5 +1,5 @@
 # SQ-10 · API First Contact
-## 145060 Programming · Unlocks Unit 7, Week 17
+## 145060 Programming · Unlocks Unit 7, Week 16
 
 **Time:** two blocks. **Difficulty:** ★★
 **Competencies:** 5.5.4 (call other programs), 5.5.7 (read inputs from an API),

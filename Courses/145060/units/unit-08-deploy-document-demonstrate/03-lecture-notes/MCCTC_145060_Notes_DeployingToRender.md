@@ -1,7 +1,7 @@
 # Lecture Notes: Deploying to Render
-## 145060 Programming · Unit 8 · Week 19 · Monday, January 25
+## 145060 Programming · Unit 8 · Week 18, Monday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W19_ShipItToRender.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W19_ShipItToRender.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W18_ShipItToRender.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W18_ShipItToRender.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type every
 example. Two of them work perfectly on your machine and fail the moment you deploy,

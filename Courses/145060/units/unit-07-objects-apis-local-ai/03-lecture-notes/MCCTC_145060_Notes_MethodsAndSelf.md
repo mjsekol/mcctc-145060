@@ -1,8 +1,8 @@
 # Lecture Notes: Methods and self
-## 145060 Programming · Unit 7 · Week 16 · Wednesday
+## 145060 Programming · Unit 7 · Week 15 · Wednesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_MethodsAndSelf.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W16_MethodsAndSelf.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_MethodsAndSelf.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W15_MethodsAndSelf.pptx)
 
 If you missed class, you can learn this concept from this file alone. This is the day
 `self` finally makes sense. Type every example with two objects, not one.

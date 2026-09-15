@@ -14,7 +14,7 @@ situation, and how to read them.
 
 ## Why this exists
 
-In October some of you submit to the Congressional App Challenge. In senior year you
+In a few weeks some of you submit to the Congressional App Challenge. In senior year you
 build a capstone for somebody outside this school. A submission is not only code. It
 is a claim that the work is yours and that you are allowed to use everything in it.
 

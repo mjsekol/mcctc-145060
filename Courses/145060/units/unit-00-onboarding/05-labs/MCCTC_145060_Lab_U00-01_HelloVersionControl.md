@@ -1,9 +1,9 @@
 # Lab U0-01: Hello, Version Control
 ## 145060 Programming · Unit 0 · Week 1 · SQ-01
 
-**Gate:** 3 (open tooling). **Duration:** two 40-minute Build 2 blocks, Wednesday
-and Thursday. **Competencies:** 5.1.8 (describe version control and the relevance of
-documentation), 5.4.1 (configure options, preferences, and tools), 5.4.2 (write and
+**Gate:** 3 (open tooling). **Duration:** two 40-minute Build 2 blocks, Tuesday
+and Wednesday, plus Thursday's Build 1 to finish. **Competencies:** 5.1.8 (describe
+version control and the relevance of documentation), 5.4.1 (configure options, preferences, and tools), 5.4.2 (write and
 edit code in the IDE), 5.4.3 (interpret a working program), 1.2.12 (technical
 writing, the README).
 
@@ -64,12 +64,12 @@ EVENT NAME GOES HERE
 ```
 
 Pick a real event. Something you actually go to: a practice, a shift, a club, a
-meet, a group project session. Do not invent one. The README you write on Thursday
+meet, a group project session. Do not invent one. The README you write on Wednesday
 works better when the thing is real.
 
 ---
 
-## Part 1: Wednesday, steps 1 through 6
+## Part 1: Tuesday, steps 1 through 6
 
 ### Step 1. Make the folder and open it
 
@@ -102,7 +102,7 @@ scratch.txt
 **Why this is step 3 and not step 8.** `.gitignore` controls whether Git *starts*
 tracking a file. It has no power over a file already in the history. Committing it
 first, before there is anything to protect, is the only ordering that works. On
-Thursday you will watch this fail when it is done in the other order.
+Wednesday you will watch this fail when it is done in the other order.
 
 ### Step 4. Commit `.gitignore` by itself
 
@@ -141,7 +141,7 @@ git commit -m "<a message that says what this does and why>"
 
 ### Acceptance criteria, Part 1
 
-Check these yourself before you leave Wednesday.
+Check these yourself before you leave Tuesday.
 
 1. `git log --oneline` shows at least two commits, and `.gitignore` is the first one
 2. Running `python event_card.py` produces five lines with the fourth one blank
@@ -150,7 +150,7 @@ Check these yourself before you leave Wednesday.
 
 ---
 
-## Part 2: Thursday, steps 7 through 12
+## Part 2: Wednesday, steps 7 through 12
 
 ### Step 7. Create the GitHub repository
 

@@ -1,5 +1,5 @@
 # Lecture Notes: Algorithms and Data Structures in Information Processing
-## 145060 Programming · Unit 3 · Week 8 · Monday, October 26
+## 145060 Programming · Unit 3 · Week 8, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W08_AlgorithmsAndData.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W08_AlgorithmsAndData.pptx)

@@ -1,8 +1,8 @@
 # Lecture Notes: Constraints and Timelines
-## 145060 Programming · Unit 6 · Week 13 · Wednesday, December 2
+## 145060 Programming · Unit 6 · Week 12, Wednesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W13_ConstraintsAndTimelines.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W13_ConstraintsAndTimelines.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W12_ConstraintsAndTimelines.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W12_ConstraintsAndTimelines.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.
@@ -20,12 +20,12 @@ Yesterday you found out what the stakeholder needs. Today you find out what is s
 the way.
 
 Every project has limits it cannot argue with. The lab machines will not install packages.
-The demo is December 18 and the building closes for winter break on December 21. Some of
+The demo is on Friday of Week 14, and nothing in this unit can be finished after it. Some of
 your teammates will be at BPA Regional next week and your instructor will be with them.
 
 A team that ignores those limits does not make them go away. It discovers them on
-December 16, when the only option left is to ship less than it promised. A team that
-writes them down on December 2 gets to decide what to cut while cutting is still a choice.
+Wednesday of Week 14, when the only option left is to ship less than it promised. A team that
+writes them down on Wednesday of Week 12 gets to decide what to cut while cutting is still a choice.
 
 ---
 
@@ -37,7 +37,7 @@ the program does. It is a fence around the space where the program is allowed to
 | Kind | Example from this unit | What it rules out |
 |---|---|---|
 | **Technical** | Standard library only, lab machines, Python 3.14 | Charting packages, a database server |
-| **Time** | Acceptance demo Friday, December 18 | Anything that cannot be tested by Thursday |
+| **Time** | Acceptance demo Week 14, Friday | Anything that cannot be tested by Thursday |
 | **People** | Two teammates compete at Regional on known days | A plan where one person holds the only copy of the knowledge |
 | **Legal and ethical** | No personal information in a public repository | Tracking who donated or who checked out a part |
 | **Stakeholder** | The announcement must fit a 200-character card | Long sentences and lists |
@@ -64,8 +64,8 @@ decision and its reason in your decision log.
 ### A timeline runs on class days
 
 A **timeline** is a list of milestones, each with a date, an owner, and a "done when" that
-someone could check. It is built on **class days**, not calendar days, because weekends,
-winter break, and no-school days do not build software.
+someone could check. It is built on **class days**, not calendar days, because weekends
+and days without class do not build software.
 
 Two habits make timelines honest:
 
@@ -142,8 +142,8 @@ Wed Dec 16  Baseline v1.0 tagged
 Fri Dec 18  Stakeholder demo
 ```
 
-Counting in class days means "five class days before the demo" lands on Friday, December 11,
-not on a Sunday. The list does the skipping for you, which is the point of building a
+Counting in class days means "five class days before the demo" lands on `Fri Dec 11`,
+the Friday of Week 13, not on a Sunday. The list does the skipping for you, which is the point of building a
 timeline on class days.
 
 ---
@@ -259,7 +259,7 @@ removed and the output shows one, you find the bug in ten seconds.
 
 - The program ranks food categories by how far each is from its goal.
 - The program must run on a lab machine without installing anything.
-- The stakeholder cannot meet with the team during the week of December 7.
+- The stakeholder cannot meet with the team during Week 13.
 - A row with a blank bin is reported with its line number.
 
 **Question 2.** A team of four has 5 class days of building left, 2 blocks per day. Two

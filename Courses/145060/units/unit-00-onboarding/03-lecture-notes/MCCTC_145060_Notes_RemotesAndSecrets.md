@@ -1,5 +1,5 @@
 # Lecture Notes: Remotes, READMEs, and Why Secrets Never Go In
-## 145060 Programming · Unit 0 · Week 1 · Thursday
+## 145060 Programming · Unit 0 · Week 1 · Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W01_RemotesAndSecrets.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W01_RemotesAndSecrets.pptx)
 

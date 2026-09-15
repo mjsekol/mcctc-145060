@@ -1,5 +1,5 @@
 # Lecture Notes: Nested Loops and Nested Structures
-## 145060 Programming · Unit 3 · Week 7 · Thursday, October 22
+## 145060 Programming · Unit 3 · Week 7, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W07_NestedLoops.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W07_NestedLoops.pptx)

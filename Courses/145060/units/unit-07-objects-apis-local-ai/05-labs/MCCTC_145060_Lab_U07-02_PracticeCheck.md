@@ -1,5 +1,5 @@
 # Lab U7-02: Practice Check
-## 145060 Programming · Unit 7 · Week 17
+## 145060 Programming · Unit 7 · Week 16
 
 **Gate:** 3 (open tooling). **Duration:** three Build blocks, Monday through Wednesday.
 **Competencies:** 5.5.7 (read inputs from APIs), 5.3.10 (error handling), 3.2.1 and

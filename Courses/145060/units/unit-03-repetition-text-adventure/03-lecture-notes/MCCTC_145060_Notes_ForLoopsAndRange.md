@@ -1,5 +1,5 @@
 # Lecture Notes: for Loops and range
-## 145060 Programming · Unit 3 · Week 7 · Monday, October 19
+## 145060 Programming · Unit 3 · Week 7, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W07_ForLoopsAndRange.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W07_ForLoopsAndRange.pptx)

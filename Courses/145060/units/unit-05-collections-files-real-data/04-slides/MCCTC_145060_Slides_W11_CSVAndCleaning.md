@@ -105,6 +105,6 @@ Image: A sorting diagram with three bins labelled clean, skipped, and needs a pe
 - Lab U5-04: the hoodie order cleanup
 - Clean 23 messy rows into a printer order
 - Convert to clean CSV and JSON
-- Build 2: data pipeline Define and Measure
-Speaker notes: Build one is the Hoodie Order lab. The real messy sheet, with every problem on slide one and a few more. You produce the printer's count by size and color, the treasurer's paid and unpaid totals, a clean CSV, a JSON file, and a needs a person list with line numbers. Build two opens the data pipeline project. Pick your data source and write down every kind of mess in it before you write any code.
+- Build 2: text adventure v3 due, with paired demos
+Speaker notes: Build one is the Hoodie Order lab. The real messy sheet, with every problem on slide one and a few more. You produce the printer's count by size and color, the treasurer's paid and unpaid totals, a clean CSV, a JSON file, and a needs a person list with line numbers. Build two is the finish line for text adventure version three. Finish your tests and README, then demo it to a partner and break your save three ways. It is due at the end of the block.
 Image: A clean order table beside a short needs a person list, navy and accent blue.

@@ -1,5 +1,5 @@
 # Lecture Notes: Sets, and Choosing the Right Structure
-## 145060 Programming · Unit 5 · Week 10 · Wednesday, November 11
+## 145060 Programming · Unit 5 · Week 10, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W10_SetsAndChoosing.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W10_SetsAndChoosing.pptx)
 

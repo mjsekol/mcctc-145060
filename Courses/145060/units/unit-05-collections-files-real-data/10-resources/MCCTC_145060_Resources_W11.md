@@ -1,6 +1,6 @@
 # Additional Resources · Week 11
-## 145060 Programming · November 16-20, 2026
-### Topics: JSON, saving and loading, CSV, and responsible scraping
+## 145060 Programming · Week 11
+### Topics: JSON, saving and loading, CSV, responsible scraping, and the Unit 5 close
 
 Links marked **Confident** or **[VERIFY]**. A **[VERIFY]** link has not been confirmed live and must
 be clicked before it is assigned.
@@ -20,6 +20,11 @@ local fixture sites.
 | 8 | Python Tutor | Tue | Remediation | 15 min |
 | 9 | A free video on JSON or CSV in Python | Any | Remediation | under 20 min |
 | 10 | SQ-13 The Scraper and SQ-09 The Automation That Saves You Ten Minutes | Fri | Extension | 1-2 blocks |
+| 11 | This unit's lecture notes, self-check sections | Before Friday's quiz | Review | 20 min |
+| 12 | Gate 1 Collections bank, Reps 12-20 | Before Friday's quiz | Review | 10 min each |
+| 13 | Official docs: `os.makedirs` and `os.path.join` | Thu-Fri | On-level | 10 min |
+| 14 | Official tutorial: Errors and Exceptions | Before Friday's quiz | Remediation | 15 min |
+| 15 | Data pipeline reference numbers, for self-checking | Thu-Fri | On-level | 5 min |
 
 ---
 
@@ -122,6 +127,10 @@ Step through Tuesday's `load_game` with a missing file and watch `state` stay th
 The picture of "the assignment never happened" makes the all-or-nothing rule concrete. (Python Tutor cannot read
 real files; have the student replace the `open` with a line that raises `FileNotFoundError` directly.)
 
+**A second use, for quiz item 12.** Step through Gate 1 Rep 18. Python Tutor draws both calls pointing at the one list
+created with the `def`. It is the fastest way to see the mutable default argument, which is also the subtle defect in
+the spare Gate 2.
+
 **Time.** 15 minutes. **Level.** Remediation.
 
 ---
@@ -139,11 +148,71 @@ matches Monday or Wednesday, and watch it yourself before assigning it.
 ## 10. Side quests
 
 **SQ-13 The Scraper** unlocks Friday. Bundle: `Courses/Misc/side-quests/SQ-13-The-Scraper/`. It runs against its own
-invented card shop website, and it is built so that following robots.txt alone is not enough. ★★★, two blocks.
+invented card shop website, and it is built so that following robots.txt alone is not enough. ★★★, two blocks. It
+runs entirely on your own computer, with no network needed. Remember to stop the site when you are done.
 
 **SQ-09 The Automation That Saves You Ten Minutes** also unlocks this week, per the catalog. A student who wants a
 smaller, personal version of Wednesday's cleaning program, pulling numbers out of their own non-personal spreadsheet,
 fits it well.
+
+---
+
+## 11. The self-checks you already have
+
+Every Unit 5 lecture note ends with three self-check questions and worked answers, in `03-lecture-notes/`.
+**Before Friday's quiz, a student should be able to answer all 24 without reading the answers first.** The ones most
+worth the time: Lists question 2, Dictionaries question 2, Tables question 1, Save and Load question 1, and CSV
+question 1.
+
+**Level.** Review.
+
+---
+
+## 12. Gate 1 reps for quiz review
+
+The later reps in the Collections bank are the best short review for the quiz: Rep 12 (JSON types), Rep 13 (except
+order), Rep 16 (the Windows blank row), Rep 18 (the mutable default), and Rep 20 (choosing a structure). Your
+instructor assigns them from the instructor copy.
+
+**Level.** Review.
+
+---
+
+## 13. Files and folders
+
+`https://docs.python.org/3/library/os.html#os.makedirs` · **Confident.**
+`https://docs.python.org/3/library/os.path.html#os.path.join` · **Confident.**
+
+**Why these.** The pipeline creates an `output` folder and builds paths with `os.path.join`. **Assign a question:**
+*What does `exist_ok` do in `os.makedirs`?* It is quiz item 9.
+
+**Time.** 10 minutes. **Level.** On-level.
+
+---
+
+## 14. Errors and exceptions, for the except-order question
+
+**The Python Tutorial, section 8, Errors and Exceptions** · `https://docs.python.org/3/tutorial/errors.html` ·
+**Confident.**
+
+**Assign a question:** *When a `try` has several `except` clauses, how many of them run?* That settles the except-order
+misconception from Tuesday.
+
+**Time.** 15 minutes. **Level.** Remediation.
+
+---
+
+## 15. Checking your pipeline against known numbers
+
+For **Route A** students only. If your pipeline reads the Swap Shelf listings and the provided sales log with rules like the
+project's "about right" example, these are numbers you can compare with. **Your numbers can differ if your rules differ.
+If they do, your README must explain which rule causes the difference.**
+
+- Listings on the shelf: 28, across 3 pages
+- Listings marked sold on the site: 11
+- Sales log data rows: 16, including one blank row and one repeated header
+
+The rest is your analysis to do, not a key to copy.
 
 ---
 
@@ -152,6 +221,7 @@ fits it well.
 1. The Tuesday lecture notes' first example, run by hand, with the half-written file opened afterwards
 2. json.org's diagrams, for anyone still writing single quotes
 3. Gate 1 Reps 11, 13, and 15
+4. Before Friday's quiz: the Save and Load notes, the CSV notes, and nothing else new
 
 ## For the student who is ahead
 

@@ -1,7 +1,7 @@
 # Lab U3-03: Game Night Leaderboard
 ## 145060 Programming · Unit 3 · Week 8
 
-**Gate:** 3 (open tooling). **Duration:** one Build 1 block, 35 minutes, Monday, October 26.
+**Gate:** 3 (open tooling). **Duration:** one Build 1 block, 35 minutes, Week 8, Monday.
 **Competencies:** 5.1.2 (algorithms and data structures in information processing), 5.3.6
 (repetition control structures), 5.5.7 (read inputs from a data file), 5.4.7 (debug logic errors).
 

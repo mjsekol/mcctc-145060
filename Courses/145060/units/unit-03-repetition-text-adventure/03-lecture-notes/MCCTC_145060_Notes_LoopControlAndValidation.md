@@ -1,5 +1,5 @@
 # Lecture Notes: break, continue, and Validation Loops
-## 145060 Programming · Unit 3 · Week 7 · Wednesday, October 21
+## 145060 Programming · Unit 3 · Week 7, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W07_LoopControl.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W07_LoopControl.pptx)

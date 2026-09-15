@@ -1,8 +1,8 @@
 # Lecture Notes: Baselines, Branches, and the Impact of a Change
-## 145060 Programming · Unit 6 · Week 15 · Wednesday, December 16
+## 145060 Programming · Unit 6 · Week 14, Wednesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_BaselinesAndChange.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W15_BaselinesAndChange.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W14_BaselinesAndChange.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W14_BaselinesAndChange.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every Python example.

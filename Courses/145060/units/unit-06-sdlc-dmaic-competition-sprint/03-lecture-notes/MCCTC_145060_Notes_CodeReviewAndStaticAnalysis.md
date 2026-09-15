@@ -1,8 +1,8 @@
 # Lecture Notes: Code Review by Peer Walkthrough and Static Analysis
-## 145060 Programming · Unit 6 · Week 15 · Monday, December 14
+## 145060 Programming · Unit 6 · Week 14, Monday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_CodeReview.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W15_CodeReview.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W14_CodeReview.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W14_CodeReview.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.

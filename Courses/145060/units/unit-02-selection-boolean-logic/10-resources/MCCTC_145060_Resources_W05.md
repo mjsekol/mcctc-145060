@@ -1,9 +1,9 @@
 # Additional Resources · Week 5
-## 145060 Programming · October 5-8, 2026
+## 145060 Programming · Week 5
 ### Topic: elif chains, logical operators, truth tables, and flattening nesting
 
 Links marked **Confident** or **[VERIFY]**, same standard as every week. **Confident** here means the
-URL returned a working page with the expected title when this file was built on September 14, 2026.
+URL returned a working page with the expected title when this file was built.
 Links still move. Click each one once before assigning it.
 
 | # | Resource | For | Level | Time |
@@ -13,7 +13,7 @@ Links still move. Click each one once before assigning it.
 | 3 | PY4E video: Conditional Execution, Parts 1 and 2 | Mon-Tue | Remediation | 25 min |
 | 4 | Python Tutor | Mon, Thu | Remediation | 15 min |
 | 5 | Official docs: `if` statements, and Boolean operations | Tue | On-level | 15 min |
-| 6 | OWASP Input Validation Cheat Sheet, "Allowlist vs Denylist" | Thu | Extension | 15 min |
+| 6 | OWASP Input Validation Cheat Sheet, "Allowlist vs Denylist" | Fri | Extension | 15 min |
 | 7 | Exercism Python track, conditionals and bools concepts | Any | Extension | 30 min |
 
 ---
@@ -123,7 +123,7 @@ section titled **Allowlist vs Denylist**.
 **What it is.** OWASP is a nonprofit whose security guidance is widely used by working developers. This page is its practical
 guide to checking input.
 
-**Why this one, this week.** Thursday's Gate 2 security defect is exactly the mistake this section warns about: the consent check
+**Why this one, this week.** Friday's Gate 2 security defect is exactly the mistake this section warns about: the consent check
 refused one known bad answer and accepted everything else. A student who reads the section after Gate 2 will see that a Week 5
 validation bug is a real professional category with a name.
 

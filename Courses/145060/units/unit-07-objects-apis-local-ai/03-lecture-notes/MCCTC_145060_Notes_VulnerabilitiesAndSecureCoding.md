@@ -1,8 +1,8 @@
 # Lecture Notes: Common Vulnerabilities and Secure Coding
-## 145060 Programming · Unit 7 · Week 18 · Wednesday
+## 145060 Programming · Unit 7 · Week 17 · Wednesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W18_VulnerabilitiesSecureCoding.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W18_VulnerabilitiesSecureCoding.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W17_VulnerabilitiesSecureCoding.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W17_VulnerabilitiesSecureCoding.pptx)
 
 If you missed class, you can learn this concept from this file alone.
 

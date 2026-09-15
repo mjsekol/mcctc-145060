@@ -1,5 +1,5 @@
 # Lecture Notes: How a Program Runs
-## 145060 Programming · Unit 0 · Week 1 · Tuesday
+## 145060 Programming · Unit 0 · Week 1 · Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W01_HowCodeRuns.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W01_HowCodeRuns.pptx)
 

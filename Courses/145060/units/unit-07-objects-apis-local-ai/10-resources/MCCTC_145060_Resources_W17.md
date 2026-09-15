@@ -1,107 +1,111 @@
 # Additional Resources · Week 17
-## 145060 Programming · January 11-15, 2027
-### Topic: HTTP requests, JSON, failure handling, and calling a local model
+## 145060 Programming · Week 17
+### Topic: secure coding, common vulnerabilities, and CIA
 
-Links marked **Confident** or **[VERIFY]**, same standard as every week.
+Links marked **Confident** or **[VERIFY]**, same standard as every week. Monday introduces
+no new concept; its review set comes from the Unit 7 Gate 1 bank and earlier unit banks, so
+no outside link is assigned for it.
 
 | # | Resource | For | Level | Time |
 |---|---|---|---|---|
-| 1 | Automate the Boring Stuff, the web APIs material | Mon-Tue | On-level | 30 min |
-| 2 | Official docs: urllib.request | Mon | On-level | 15 min |
-| 3 | Official docs: json | Mon | On-level | 10 min |
-| 4 | Official docs: urllib.error and HTTP status meaning | Tue | On-level | 15 min |
-| 5 | An article on HTTP status codes | Tue | On-level | 12 min |
-| 6 | Ollama API generate reference | Thu | Extension | 15 min |
-| 7 | SQ-10 API First Contact | Fri | Required-ish | 2 blocks |
+| 1 | OWASP Top Ten overview | Tue-Wed | On-level | 25 min |
+| 2 | Official docs: why eval is dangerous | Tue | On-level | 10 min |
+| 3 | CIA triad explainer | Thu | On-level | 12 min |
+| 4 | Path traversal explained | Wed | On-level | 12 min |
+| 5 | A current article on a real breach | Thu | Extension | 15 min |
+| 6 | The anchor v4 security notes | Tue | Extension | 15 min |
+| 7 | SQ-05 Bug Hunt (review) | Fri | Extension | 1 block |
 
 ---
 
 ## 1. Primary reading
 
-**Automate the Boring Stuff with Python, the material on fetching data from the web** ·
-`https://automatetheboringstuff.com/` · **Confident** for the site, **[VERIFY]** the exact
-chapter, since the third edition reorganized the web material.
+**The OWASP Top Ten overview** · `https://owasp.org/www-project-top-ten/` · **[VERIFY]** the
+exact URL before assigning; OWASP reorganizes, but the project is stable and simple to find by
+searching "OWASP Top Ten."
 
-**Why this one.** It shows fetching data over HTTP in plain language, with real examples.
-Our course uses the standard library `urllib` rather than the `requests` package the book
-often uses, so tell students to read for the ideas, request, response, JSON, not to copy
-the exact library calls.
+**Why this one.** It is the industry's plain-language list of the most common web
+vulnerabilities, several of which this week teaches: injection, broken access, security
+misconfiguration. Read the category names and one-line descriptions, not the deep detail.
 
-**Skip:** anything that installs a package. We are standard library only.
-
----
-
-## 2. Official documentation, urllib.request
-
-`https://docs.python.org/3/library/urllib.request.html` · **Confident.**
-
-**Assign a question, not the page.** It is a large page.
-
-> Find `urlopen`. What does the `timeout` argument do, and what happens if you leave it out?
-
-That settles Monday's rule that every request needs a timeout, from the primary source.
+**Skip:** the framework-specific mitigations. Read for the categories and why each matters.
 
 ---
 
-## 3. Official documentation, json
+## 2. Official documentation, on eval
 
-`https://docs.python.org/3/library/json.html` · **Confident.**
+The Python documentation for `eval`, which describes what it does. ·
+`https://docs.python.org/3/library/functions.html#eval` · **Confident.**
 
-Read only `json.loads` and `json.dumps`. `loads` turns text into Python data; `dumps` turns
-Python data into text. That is the whole week's use of it.
+**Assign a question, not the page.**
 
----
+> Read what `eval` does. In one sentence, why is running `eval` on text a user typed
+> dangerous?
 
-## 4. Official documentation, urllib.error
-
-`https://docs.python.org/3/library/urllib.error.html` · **Confident.**
-
-**The key fact to take from it:** `HTTPError` is a subclass of `URLError`. That is why you
-catch `HTTPError` first. Read the two class descriptions and confirm the inheritance.
+That settles Tuesday's arbitrary-code-execution lesson from the primary source.
 
 ---
 
-## 5. What the status codes mean
+## 3. The CIA triad, explained
 
-A reputable reference on HTTP status codes, for example the MDN page on HTTP response status
-codes. · `https://developer.mozilla.org/en-US/docs/Web/HTTP/Status` · **[VERIFY]** the URL
-before assigning; MDN is stable but confirm it resolves.
+A reputable plain-language explainer of confidentiality, integrity, and availability. Search
+"CIA triad confidentiality integrity availability." · **[VERIFY]** the URL before assigning.
 
-**Why this one.** 404, 429, and 500 are not arbitrary numbers. Reading what each class of
-code means, 4xx is your side, 5xx is the server's, makes Tuesday's distinct handling make
-sense rather than being memorized.
+**Why this one.** Thursday is CIA. A short outside explainer, with examples different from
+ours, reinforces the three definitions. If you cannot verify one, the `Notes_Confidentiality
+IntegrityAvailability` lecture notes cover it fully.
 
 ---
 
-## 6. The local model API, for the curious
+## 4. Path traversal, explained
 
-The Ollama API documentation for the `/api/generate` endpoint. · **[VERIFY]** the URL
-before assigning, since vendor docs move. Search "Ollama API generate."
+A short, reputable explainer of directory traversal, for example the OWASP page on path
+traversal. · **[VERIFY]** the URL before assigning.
 
-**Why this one.** Thursday's model call speaks this API. Reading the real request and
-response fields, `model`, `prompt`, `stream`, `response`, `done`, shows that the bundled
-stub matches a real server. **Do not require it.** Everything runs on the stub.
+**Why this one.** Wednesday's deliberate error is a path traversal. Seeing the `..` attack
+described by a security source, with the same shape as our `../../settings.py`, connects the
+lab to the real category.
+
+---
+
+## 5. A current article on a real breach
+
+A recent, reputable news article about a breach caused by one of this week's categories: a
+leaked key in a public repository, a path traversal, an injection. · **[VERIFY]** and pick
+one current the week you teach. Do not name a specific company or incident from memory here,
+because details matter and get remembered wrong.
+
+**Why this one.** The categories feel abstract until a student sees one cost a real
+organization real money. Choose one that matches a category from the lab.
+
+---
+
+## 6. The anchor project's security design
+
+`Courses/145060/anchor-project/text-adventure/v4/README.md`, the sections on untrusted
+input and no credentials. · **Confident**, it is in this repository.
+
+**Why this one.** The text adventure was built with this week's lessons already applied: the
+`examine` input is capped and filtered, the model reply is checked and stripped, and a test
+fails if a credential appears. Read it as an example of secure coding done on purpose.
 
 ---
 
 ## 7. Side quest
 
-**SQ-10 API First Contact** unlocks Friday. It is named in the syllabus as a Unit 7
-deliverable. Consume a real no-key public API and handle a 404, a timeout, and a rate limit
-distinctly. Bundle and description in
-`Courses/Misc/side-quests/SQ-10-API-First-Contact/`. · **Confident**, it is in this
-repository.
+**SQ-05 Bug Hunt**, revisited as review. Finding planted defects in code you did not write is
+the same muscle as the security review lab. Full description in
+`Courses/Misc/side-quests/SQ-05-Bug-Hunt/`. · **Confident**, it is in this repository.
 
-**Why it fits here.** It is the week's skill on a real feed instead of a fixture. A student
-who handled the fixture's failures is ready to handle a real service's.
+**Why it fits here.** SQ-05's lesson, that a passing test suite is not proof of safety, is
+exactly Friday's Gate 2 and the bonus defect in the security lab.
 
 ---
 
 ## For the student who is behind
 
-1. The `Notes_HTTPAndJSON` lecture notes, typing the three steps until the types make sense
-2. Python Tutor is not useful for network code; instead, run the fixture and the client
-   side by side and watch the request in the fixture's log
-3. Rewrite `get_json` from an empty file, then add one failure branch at a time
+1. The `Notes_VulnerabilitiesAndSecureCoding` lecture notes, one category at a time
+2. Run the vulnerable Study Hall app and reproduce two defects with the recorded commands
+3. The CIA one-liners, then sort five scenarios into C, I, and A
 
 Do not assign all seven. A student who is behind and gets seven links reads none.

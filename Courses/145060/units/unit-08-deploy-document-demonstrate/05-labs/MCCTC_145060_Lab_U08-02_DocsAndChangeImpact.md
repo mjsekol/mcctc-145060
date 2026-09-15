@@ -1,5 +1,5 @@
 # Lab U8-02: Documentation and Change Impact
-## 145060 Programming · Unit 8 · Week 19 · Tuesday and Wednesday, January 26-27
+## 145060 Programming · Unit 8 · Week 18, Tuesday and Wednesday
 
 **Gate:** 3 (open tooling). **Duration:** Tuesday Build 1 for Parts 1 and 2 (35 minutes), and
 Wednesday Build 1 for Part 3 (30 minutes, because the exam follows). **Competencies:** 5.6.8 (implementation plan, contingency plan,

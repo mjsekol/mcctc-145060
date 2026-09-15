@@ -1,21 +1,30 @@
 # Gate 2: Adversarial Review · Week 13
-## 145060 Programming · Unit 6 · Friday, December 4
+## 145060 Programming · Unit 6 · Week 13, Thursday · Independent
 
-**40 minutes.** Individual. You may and should run the code. You may not ask a model whether it is
-correct, because the model is what is being reviewed.
+**40 minutes.** Individual and silent. **Nobody will be available to explain anything.** Everything you
+need is in this packet. You may and should run the code. You may not ask a model whether it is correct,
+because the model is what is being reviewed. You may not work with your team.
 
-**Files:** `07-gate2-adversarial/gate2-w13-files/ticket_order.py` and `prices.json`. Keep both in the
-same folder and run from that folder.
+**Files:** `07-gate2-adversarial/gate2-w13-files/fundraiser_report.py` and `sales.csv`. The code and a real
+run are also printed below, so you can do this on paper if the machines are down.
+
+---
+
+## Before you run anything
+
+**Make a copy of the data file first.** In the `gate2-w13-files` folder, copy `sales.csv` to a new file named
+`sales_backup.csv`. You can do this in VS Code's file explorer with copy and paste, then rename.
+
+**Why:** this program writes a file whose name you type. When you test a program that writes files, you keep a
+backup of every file it could touch. That is a habit, not a hint. If anything happens to `sales.csv` while you
+test, copy the backup over it and keep going. Write down exactly what happened, because that is a finding.
 
 ---
 
 ## What you are looking at
 
-Somebody handed an AI assistant the requirements in Part A and got the program in Part B. It runs. It
-even comes with its own acceptance tests, and **every one of them passes.**
-
-That last sentence is the point of this week. Yesterday you learned that a test is only as good as the
-place its expected value came from.
+A club advisor asked an AI assistant for the program in Part B, using the requirements in Part A. It runs. It
+prints a tidy table. The comments are confident.
 
 **Five defects, one in each category:**
 
@@ -27,180 +36,194 @@ place its expected value came from.
 | **Performance** | Work done more times than it needs to be |
 | **Requirements Fit** | Something the requirements asked for that is missing, or something nobody asked for |
 
-**One of these defects hides behind a passing test.** Do the arithmetic for every expected value yourself,
-from Part A, before you trust any PASS line.
+**One of these is the kind of bug this whole course has warned you about: it does not crash, and the numbers look
+reasonable.** Check at least one team's total by hand against `sales.csv`.
 
 ---
 
 ## PART A: The requirements
 
-> Write `ticket_order.py` for the winter concert ticket table.
+> Write `fundraiser_report.py` for the winter cookie dough fundraiser.
 >
-> 1. Student tickets cost $6 and adult tickets cost $10. Prices live in `prices.json`, so the office can
->    change a price without editing code.
-> 2. One order is 1 to 8 tickets in total. Any other order is refused with a clear message.
-> 3. An order of **6 or more** tickets gets $1 off every ticket in the order.
-> 4. `order_total(students, adults)` returns the order's total in whole dollars.
-> 5. The file includes acceptance tests covering every requirement, **including both edges of the 1-to-8
->    rule and the edge of the group rate**, and prints how many passed and failed.
+> 1. Read every sale from `sales.csv`, which has the columns `team`, `item`, `qty`, and `unit_price`.
+> 2. For each team, total the dollars sold: `qty` times `unit_price`, added up over that team's rows.
+> 3. Print the standings, highest total first, with each team's total and its share of all sales as a percent.
+> 4. Skip any row whose `qty` or `unit_price` is missing or not a number, and print how many rows were skipped.
+> 5. Ask for a file name and save the standings to that file as JSON, so the activities office can post them.
 
 ---
 
 ## PART B: What the AI produced
 
-Count line numbers from `# ticket_order.py` as line 1. Blank lines count.
+Count line numbers from `# fundraiser_report.py` as line 1. Blank lines count.
 
 ```python
-# ticket_order.py
+# fundraiser_report.py
 #
-# Winter concert ticket pricing for the front table, with the acceptance
-# tests built in so anyone can confirm the rules before the doors open.
+# Leaderboard for the winter cookie dough fundraiser. Reads every sale from
+# sales.csv, totals each team, prints the standings, and saves them as JSON
+# so the activities office can post them.
 #
-# Run the tests:   python ticket_order.py
+# Usage:  python fundraiser_report.py
 
+import csv
 import json
 
-PRICES_FILE = "prices.json"
-MIN_TICKETS = 1
-MAX_TICKETS = 8
-GROUP_SIZE = 6          # orders of this many tickets or more get the group rate
-GROUP_DISCOUNT = 1      # dollars off each ticket in a group order
+SALES_FILE = "sales.csv"
+PROJECTION_FACTOR = 1.35   # typical late-season lift for school fundraisers
 
 
-def price_for(kind):
-    """Look up the current price for one ticket type from prices.json.
-
-    Reading the file here means the office can change a price without
-    anyone editing the code.
-    """
-    with open(PRICES_FILE, encoding="utf-8") as file:
-        prices = json.load(file)
-    return prices[kind]
-
-
-def order_total(students, adults):
-    """Return the total for one order, in cents.
-
-    Raises ValueError when the order is smaller or larger than the table
-    is allowed to sell in one transaction.
-    """
-    ticket_count = students + adults
-    if ticket_count < MIN_TICKETS or ticket_count > MAX_TICKETS:
-        raise ValueError(f"orders must be {MIN_TICKETS} to {MAX_TICKETS} tickets")
-
-    total = 0
-    for _ in range(students):
-        total += price_for("student")
-    for _ in range(adults):
-        total += price_for("adult")
-
-    # Group rate: $1 off every ticket for groups of six or more.
-    if ticket_count > GROUP_SIZE:
-        total -= GROUP_DISCOUNT * ticket_count
-
-    return total
+def read_sales(path):
+    """Read sales.csv and return (valid_rows, skipped_count)."""
+    rows = []
+    skipped = 0
+    with open(path, newline="", encoding="utf-8") as file:
+        for row in csv.DictReader(file):
+            try:
+                quantity = int(row.get("quantity", 1))
+                price = float(row["unit_price"])
+            except (ValueError, TypeError):
+                skipped += 1
+                continue
+            rows.append({"team": row["team"].strip(), "quantity": quantity, "price": price})
+    return rows, skipped
 
 
-def receipt_line(students, adults):
-    """Build the one-line receipt the table reads back to the buyer."""
-    total = order_total(students, adults)
-    return f"{students} student, {adults} adult: ${total}"
+def average_by_team(rows):
+    """Group the sales by team."""
+    totals = {}
+    for row in rows:
+        amount = row["quantity"] * row["price"]
+        totals[row["team"]] = totals.get(row["team"], 0) + amount
+    return totals
 
 
-# Acceptance tests. Each check compares the program to the spec.
-results = []
+def total_of(entry):
+    """Sort helper: the dollar total of one leaderboard entry."""
+    return entry["total"]
 
 
-def check(label, actual, expected):
-    """Record and print one PASS or FAIL."""
-    if actual == expected:
-        results.append(True)
-        print(f"PASS  {label}")
-    else:
-        results.append(False)
-        print(f"FAIL  {label}: expected {expected}, got {actual}")
+def build_leaderboard(rows):
+    """Return the standings, highest total first, with each team's share of all sales."""
+    totals = average_by_team(rows)
+    board = []
+    for team in totals:
+        grand_total = 0
+        for row in rows:
+            grand_total += row["quantity"] * row["price"]
+        share = round(totals[team] / grand_total * 100, 1)
+        board.append({
+            "team": team,
+            "total": round(totals[team], 2),
+            "share": share,
+            "projected": round(totals[team] * PROJECTION_FACTOR, 2),
+        })
+    board.sort(key=total_of, reverse=True)
+    return board
 
 
-def run_acceptance_tests():
-    """Run every acceptance test from the spec and print a summary."""
-    check("one student ticket", order_total(1, 0), 6)
-    check("one adult ticket", order_total(0, 1), 10)
-    check("mixed order of four", order_total(2, 2), 32)
-    check("group of six adults", order_total(0, 6), 60)
-    check("group of seven gets the group rate", order_total(3, 4), 51)
+def print_leaderboard(board, skipped):
+    """Print the standings as a table the office can read aloud."""
+    print("COOKIE DOUGH FUNDRAISER STANDINGS")
+    print(f"{'Team':<16}{'Total':>10}{'Share':>8}{'Projected':>12}")
+    for entry in board:
+        print(f"{entry['team']:<16}{entry['total']:>10.2f}{entry['share']:>7.1f}%{entry['projected']:>12.2f}")
+    print(f"Skipped {skipped} rows.")
 
-    try:
-        order_total(0, 0)
-        check("empty order is refused", "accepted", "refused")
-    except ValueError:
-        check("empty order is refused", "refused", "refused")
 
-    check("receipt wording", receipt_line(2, 1), "2 student, 1 adult: $22")
+def save_leaderboard(board, filename):
+    """Save the standings as JSON for the activities office."""
+    with open(filename, "w", encoding="utf-8") as file:
+        json.dump(board, file, indent=2)
+    print(f"Saved standings to {filename}")
 
-    print()
-    print(f"{results.count(True)} passed, {results.count(False)} failed")
+
+def main():
+    """Read, total, print, and save."""
+    rows, skipped = read_sales(SALES_FILE)
+    board = build_leaderboard(rows)
+    print_leaderboard(board, skipped)
+    filename = input("Save standings as (for example standings.json): ").strip()
+    save_leaderboard(board, filename)
 
 
 if __name__ == "__main__":
-    run_acceptance_tests()
+    main()
 ```
 
-`prices.json`:
-
-```json
-{
-  "student": 6,
-  "adult": 10
-}
-```
-
-### A real run, for reference
+### The data, `sales.csv`
 
 ```
-$ python ticket_order.py
-PASS  one student ticket
-PASS  one adult ticket
-PASS  mixed order of four
-PASS  group of six adults
-PASS  group of seven gets the group rate
-PASS  empty order is refused
-PASS  receipt wording
-
-7 passed, 0 failed
+team,item,qty,unit_price
+Robotics,chocolate chip tub,4,12.00
+Robotics,sugar cookie tub,2,12.00
+Band,chocolate chip tub,6,12.00
+Band,snickerdoodle tub,3,13.50
+Culinary Club,sugar cookie tub,5,12.00
+Robotics,snickerdoodle tub,1,13.50
+Culinary Club,chocolate chip tub,ten,12.00
+Band,sugar cookie tub,2,12.00
+Culinary Club,snickerdoodle tub,4,
+Esports,chocolate chip tub,3,12.00
 ```
 
-**Seven for seven.** Before you believe it, work out by hand what six adult tickets should cost under
-requirement 3.
+### A real run, typing `standings.json` at the prompt
+
+```
+COOKIE DOUGH FUNDRAISER STANDINGS
+Team                 Total   Share   Projected
+Robotics             37.50   33.8%       50.62
+Band                 37.50   33.8%       50.62
+Culinary Club        24.00   21.6%       32.40
+Esports              12.00   10.8%       16.20
+Skipped 1 rows.
+Save standings as (for example standings.json): Saved standings to standings.json
+```
+
+**Before you read the code, compute Robotics' total yourself from the three Robotics rows in `sales.csv`.** Then
+count the rows that should be skipped under requirement 4.
 
 ---
 
 ## What to submit
 
-For each defect: **file and line**, **dimension**, **what goes wrong for a real person**, and **the fix**.
-Then one final entry: **what I was unsure about**, naming something specific. That entry is scored and a
-blank costs more than a wrong guess.
+**On paper,** in the packet's answer space, **or typed,** in a file named `gate2_w14_<your first name>.md` saved in
+your own repository and pushed. Your substitute collects paper copies at minute 40.
 
-You can test any single order without editing the file:
-
-```
-python -c "import ticket_order; print(ticket_order.order_total(1, 2))"
-```
+For each defect: **file and line**, **dimension**, **what goes wrong for a real person**, and **the fix**. Then one
+final entry: **what I was unsure about**, naming something specific. That entry is scored, and a blank costs more
+than a wrong guess.
 
 ### How to spend 40 minutes
 
-- **First 5:** run it. Then compute every expected value in `run_acceptance_tests` yourself from Part A.
-- **Next 10:** call `order_total` with orders nobody would choose: 0 and 0, 8 tickets, 9 tickets, and
-  counts that should never be possible at a ticket table.
-- **Next 10:** read Part A one requirement at a time and point at the line that satisfies it. Requirement 5
-  names specific edges. Find the check for each one.
-- **Rest:** read every comment and docstring against the code underneath it, and count how many times the
-  program reads `prices.json` for one order.
+- **First 5:** make the backup. Run it with `standings.json`. Compute one team's total by hand and compare.
+- **Next 10:** run it again and type file names nobody should type. Think about which files are in that folder.
+  **Restore from your backup if anything goes wrong.**
+- **Next 10:** read Part A one requirement at a time and point at the line that does it. Then look for anything the
+  program prints or saves that Part A never mentions.
+- **Rest:** read every name, comment, and docstring against the code under it. Then look inside
+  `build_leaderboard` and count how many times the rows are added up.
+
+### Answer space
+
+| # | Line(s) | Dimension | What goes wrong for a real person | Fix |
+|---|---|---|---|---|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+
+**What I was unsure about:**
+
+<br>
+<br>
 
 ---
 
 ## Scoring
 
-Five defects, one point each, plus one for the unsure-about entry. Your instructor states the security
-weighting before you start.
+Five defects, one point each, plus one for the unsure-about entry. **Missing the security defect costs two points,
+not one**, because a review that misses a threat to the data has missed what reviews are for.
 
 **Four of five is a strong score.**

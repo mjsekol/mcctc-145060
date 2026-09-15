@@ -1,5 +1,5 @@
 # Lecture Notes: How Machine Learning Differs from a Decision Tree You Write
-## 145060 Programming · Unit 2 · Week 6 · Tuesday, October 13
+## 145060 Programming · Unit 2 · Week 6, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W06_MLVsDecisionTrees.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W06_MLVsDecisionTrees.pptx)

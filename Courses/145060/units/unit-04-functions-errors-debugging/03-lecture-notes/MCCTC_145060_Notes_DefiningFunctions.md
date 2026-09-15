@@ -1,5 +1,5 @@
 # Lecture Notes: Defining Functions with Parameters
-## 145060 Programming · Unit 4 · Week 8 · Wednesday, October 28
+## 145060 Programming · Unit 4 · Week 8, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W08_DefiningFunctions.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W08_DefiningFunctions.pptx)

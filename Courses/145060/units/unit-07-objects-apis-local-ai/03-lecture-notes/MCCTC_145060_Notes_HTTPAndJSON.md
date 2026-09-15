@@ -1,8 +1,8 @@
 # Lecture Notes: HTTP Requests and JSON Responses
-## 145060 Programming · Unit 7 · Week 17 · Monday
+## 145060 Programming · Unit 7 · Week 16 · Monday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W17_HTTPAndJSON.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W17_HTTPAndJSON.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_HTTPAndJSON.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W16_HTTPAndJSON.pptx)
 
 If you missed class, you can learn this concept from this file alone. You need the lab's
 fixture server running to try the examples. Start it in a second terminal first.
@@ -115,7 +115,7 @@ Got 4 stations
 ```
 
 The `timeout` is not optional in real code. A request with no timeout can hang forever,
-which is an availability problem you will name in Week 18. Set it every time.
+which is an availability problem you will name in Week 17. Set it every time.
 
 ---
 

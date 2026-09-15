@@ -1,5 +1,5 @@
 # Lecture Notes: Narrow Excepts and the Failures You Did Not See Coming
-## 145060 Programming · Unit 4 · Week 9 · Wednesday, November 4
+## 145060 Programming · Unit 4 · Week 9, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W09_NarrowExcepts.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W09_NarrowExcepts.pptx)

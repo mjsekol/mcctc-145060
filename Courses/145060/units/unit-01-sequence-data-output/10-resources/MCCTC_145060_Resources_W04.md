@@ -1,5 +1,5 @@
 # Additional Resources · Week 4
-## 145060 Programming · September 28 - October 2, 2026
+## 145060 Programming · Week 4
 ### Topics: number bases, character encoding, reading files
 
 Links marked **Confident** or **[VERIFY]**.
@@ -60,9 +60,10 @@ block and watch each slice take its piece.
 decimal, and hexadecimal without `bin()`, `hex()`, or `int(x, base)`. Full description in
 `Courses/Misc/MCCTC_Side_Quest_Catalog_2026-2027.md`.
 
-**Also this week:** Congressional App Challenge teams form Friday. The deadline is October
-26. Point interested students at their Problem Inventories rather than at a list of app
-ideas.
+**Also this week:** Congressional App Challenge teams form Friday. The deadline usually
+falls in Week 8. Confirm this year's date and time on the official site before the week
+starts. Point interested students at their Problem Inventories rather than at a list of
+app ideas.
 
 ---
 

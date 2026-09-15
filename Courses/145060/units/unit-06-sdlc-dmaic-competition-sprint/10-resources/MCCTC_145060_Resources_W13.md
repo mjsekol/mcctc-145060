@@ -1,290 +1,259 @@
 # Additional Resources · Week 13
-## 145060 Programming · November 30 - December 4, 2026
-### Topics: DMAIC outside and agile inside, requirements and acceptance criteria, constraints and timelines, acceptance tests
+## 145060 Programming · Week 13 · BPA Regional Week
+### Topics: nothing new. Review of Week 12, CSV and dictionaries from Unit 5, reading test output
 
 Every URL is marked Confident or [VERIFY]. Click every [VERIFY] link before assigning it.
 
-**Confident** here means the page loaded and matched its description when this file was
-written on September 14, 2026. Pages move. Check again the week you assign one.
+**Nothing new is introduced this week.** Your teacher is at BPA Regional and a substitute
+is running the room. Every resource here reviews something you already learned. If a page
+starts teaching something you have never seen, stop reading. You do not need it this week.
 
-**No new syntax this week.** Every resource below supports the four lecture notes in
-`03-lecture-notes/`. None of them teaches a Python feature students have not already used.
-If a resource drifts into `unittest`, classes, or a testing framework, tell students to stop
-reading there. That is Unit 7 and later.
+**You can use this whole file with nobody to ask.** Items 3, 4, and 5 have their answers at
+the bottom of the file. Try each one before you look.
 
 | # | Resource | For | Level | Time |
 |---|---|---|---|---|
-| 1 | The Agile Manifesto and its twelve principles | Mon | On-level | 15 min |
-| 2 | The history of the Agile Manifesto | Mon | Extension | 15 min |
-| 3 | Agile Alliance glossary: Given When Then | Tue | On-level | 10 min |
-| 4 | Martin Fowler, "Given When Then" | Tue | Extension | 10 min |
-| 5 | Official docs: what `in` really compares | Wed | On-level | 10 min |
-| 6 | Automate the Boring Stuff, Chapter 5, the Assertions section | Thu | On-level | 20 min |
-| 7 | Python tutorial: Raising Exceptions | Thu | On-level | 10 min |
-| 8 | Python Tutor with a boundary test file | Thu | Remediation | 15 min |
-| 9 | Agile Alliance glossary: ATDD | Thu-Fri | Extension | 10 min |
-| 10 | A short video on acceptance criteria | Tue | Remediation | under 20 min |
-| 11 | SQ-24 Ship for a Real Stakeholder, as a preview | Fri | Extension | multi-week |
+| 1 | Which lecture note answers my question | Any day | Remediation | 5 min |
+| 2 | Automate the Boring Stuff, Chapters 7 and 18 | Mon-Tue | On-level | 25 min |
+| 3 | Official docs: `csv.DictReader` | Mon-Tue | On-level | 10 min |
+| 4 | Python Tutor: count with a dictionary | Mon | Remediation | 15 min |
+| 5 | Practice: read a test file's output | Wed-Fri | On-level | 15 min |
+| 6 | Python for Everybody, dictionaries video | Any day | Remediation | under 20 min |
+| 7 | SQ-12 Read the Source | Fri | Extension | 1 block |
 
 ---
 
-## 1. Primary reading, the source the argument started from
+## 1. Which lecture note answers my question
 
-**Manifesto for Agile Software Development** · `https://agilemanifesto.org/` ·
-**Confident.** The twelve principles are one click away at
-`https://agilemanifesto.org/principles.html` · **Confident.**
+**No link. These are files in your course repository.** Guide rule 4 says to check the
+lecture note first when you are stuck. This table tells you which one.
 
-**What it is.** The one-page statement that named "agile" in software, plus the
-principles behind it. It is short enough to read twice.
+| If you are stuck on | Read this in `03-lecture-notes/` | Part to read |
+|---|---|---|
+| What goes in a sprint planning meeting or stand-up | `MCCTC_145060_Notes_DMAICAgileWaterfall.md` | The ceremonies table |
+| Whether a requirement is testable | `MCCTC_145060_Notes_RequirementsAndAcceptanceCriteria.md` | Worked example 2 |
+| Whether your work still fits the days left | `MCCTC_145060_Notes_ConstraintsAndTimelines.md` | Worked example 3 |
+| Why a check fails, or how to test a refusal | `MCCTC_145060_Notes_AcceptanceTests.md` | Worked example 2 |
 
-**Why this one.** Monday's lesson asks you to make the strongest case for waterfall and
-for agile. You cannot argue fairly with a position you only know from a summary. This is
-the position in its own words.
+**Why this one.** The notes were written for exactly the situation you are in: a student
+who missed class and has nobody to explain it. Type and run the examples. Reading alone
+is not enough.
 
-**Assign a question, not the page.**
-
-> Read the four value statements. Each one says "X over Y." Pick one pair. Write one
-> sentence about a project where Y should win anyway, and why.
-
-That question is Monday's exit ticket from the other direction. A student who can answer
-it has understood that the manifesto ranks values and does not ban anything.
-
-**Time.** 15 minutes. **Level.** On-level.
+**Time.** 5 minutes to find the part. **Level.** Remediation.
 
 ---
 
-## 2. Where the manifesto came from
+## 2. Reading: dictionaries and CSV files with headers
 
-**History: The Agile Manifesto** · `https://agilemanifesto.org/history.html` ·
-**Confident.**
+**Automate the Boring Stuff with Python, 3rd edition** · **Confident** for both pages.
 
-**What it is.** An account of the 2001 meeting that produced the manifesto, written by one
-of the people who signed it.
+- Chapter 7, "Dictionaries and Structuring Data" · `https://automatetheboringstuff.com/3e/chapter7.html`.
+  Read only "Checking Whether a Key Exists" and "Setting Default Values."
+- Chapter 18, "CSV, JSON, and XML Files" · `https://automatetheboringstuff.com/3e/chapter18.html`.
+  Read only "Reading CSV Files" and "Handling Header Rows."
 
-**Why this one.** It is an advocate's document, and that is the point. Read it as a
-primary source written by someone with a side. Ask what the author thinks waterfall got
-wrong, then ask what a project manager on a fixed-price contract would say back. The
-lecture notes' "strongest case for waterfall" section gives you that answer.
+**Why this one.** Lab U06-02 reads `tasks.csv` into dictionaries and counts things. These
+four short sections are the Unit 5 skills that lab uses, and nothing more.
 
-**Time.** 15 minutes. **Level.** Extension, for the student who wants to argue Monday's
-question with evidence.
+**Skip:** JSON, XML, and the chessboard project. Not this week.
+
+**Time.** 25 minutes. **Level.** On-level.
 
 ---
 
-## 3. The shape of an acceptance criterion
+## 3. Official documentation: what `DictReader` does with a short row
 
-**Agile Alliance glossary, "Given When Then"** ·
-`https://www.agilealliance.org/glossary/given-when-then/` · **Confident.**
+**`csv.DictReader`** · `https://docs.python.org/3/library/csv.html` · **Confident.**
 
-**What it is.** A one-screen definition of the Given, When, Then template, with a short
-example.
+**Why this one.** `tasks_messy.csv` has rows that are wrong in several ways. You need to
+know what Python hands you when a row is short, before your program tries to use it.
 
-**Why this one.** Tuesday's criteria use this exact shape. The glossary says it more
-briefly than the lecture notes, and it comes from an industry organization rather than from
-your teacher. It also makes clear that the template is a habit, not a rule enforced by a
-tool, which matches the notes.
+**Answer this question, not the whole page.**
 
-**Assign a question, not the page.**
+> Find `DictReader`. Read what it says about a row that has fewer fields than the header.
+> What value goes in the missing spots by default? What happens if your program calls
+> `int()` on that value?
 
-> Write the "13 through 19" ticket rule from Tuesday as two Given, When, Then criteria.
-> One must name age 13 and one must name age 19.
+Answer at the bottom of this file.
 
 **Time.** 10 minutes. **Level.** On-level.
 
 ---
 
-## 4. A practitioner's short version
-
-**Martin Fowler, "Given When Then"** · `https://martinfowler.com/bliki/GivenWhenThen.html` ·
-**Confident.**
-
-**What it is.** A short essay by a well-known software author, written for working
-development teams. It dates from 2013, and the three-part shape it describes is the same one in this week's notes.
-
-**Why this one.** This fills the "real industry work" slot. It shows that the template
-you use on a food drive project is the same one professional teams use to agree on
-behavior before code exists. It is short, and it treats the template as a way to structure
-a conversation.
-
-**Warning worth passing on.** It mentions tools and terms this course does not use. Read
-for the three-part shape and skip the tool names.
-
-**Time.** 10 minutes. **Level.** Extension.
-
----
-
-## 5. Official documentation, why the timeline gained three days
-
-**Common Sequence Operations** ·
-`https://docs.python.org/3/library/stdtypes.html#common-sequence-operations` · **Confident.**
-
-**Why this one.** Wednesday's deliberate error copied BPA dates as `"Mon Dec 07"`, and a
-competitor gained three class days that do not exist. The table on this page states in one
-line what `in` checks for a list. Once you read it, the bug stops being mysterious.
-
-**Assign a question, not the page.**
-
-> Find `x in s` in the table. What does it say an item must be for the answer to be
-> `True`? Use that wording to explain why `"Mon Dec 07" in class_days` is `False`.
-
-The answer is that an item must be **equal** to `x`. `"Mon Dec 07"` and `"Mon Dec 7"` are
-different strings, so they are not equal, and no amount of looking alike changes that.
-
-**Time.** 10 minutes. **Level.** On-level, and remediation for any team whose capacity
-number looked too comfortable.
-
----
-
-## 6. Why this unit uses `check` instead of `assert`
-
-**Automate the Boring Stuff with Python, 3rd edition, Chapter 5, "Debugging," the section
-on Assertions** · `https://automatetheboringstuff.com/3e/chapter5.html` · **Confident.**
-
-**What it is.** A section on the `assert` statement as a sanity check inside a program.
-
-**Why this one.** Students will find `assert` online and ask why the unit wrote its own
-`check` helper. This section answers it if you read it with the right question. An
-assertion stops the program at the first failure. A test file that stops at the first
-failure hides every failure after it.
-
-**Assign a question, not the page.**
-
-> Your team's test file has 14 checks and 5 of them fail. If every check were an
-> `assert`, how many failures would you see in one run? Why does that matter on demo day?
-
-**Skip:** the Logging and debugger sections. Not this week.
-
-**Time.** 20 minutes. **Level.** On-level.
-
----
-
-## 7. Official documentation, how a refusal happens
-
-**Python tutorial, Errors and Exceptions, "Raising Exceptions"** ·
-`https://docs.python.org/3/tutorial/errors.html#raising-exceptions` · **Confident.**
-
-**Why this one.** Thursday's `outcome()` helper turns a `ValueError` into the plain value
-`"refused"` so a check can compare it. That only makes sense once you know what `raise`
-does and what `try` and `except` catch. This is the official version, and it is short.
-
-**Assign a question, not the page.**
-
-> Read the Raising Exceptions section. Then look at `outcome()` in the acceptance tests
-> lecture notes. If `split_bill` raised `TypeError` instead of `ValueError`, what would
-> happen to the test file?
-
-The answer is that the test file itself would crash, because `outcome()` only catches
-`ValueError`. That is a real failure mode worth naming before a team hits it.
-
-**Time.** 10 minutes. **Level.** On-level.
-
----
-
-## 8. Interactive practice
+## 4. Interactive practice: count with a dictionary
 
 **Python Tutor** · `https://pythontutor.com/` · **Confident.**
 
-Paste in Tuesday's boundary bug with four checks and step through it:
+Four friends order snacks for a gaming night. Paste this in and **predict both printed
+lines before you click Visualize.** Write your prediction down.
 
 ```python
-results = []
+orders = [
+    {"name": "Player 1", "snack": "pizza", "cost": "4"},
+    {"name": "Player 2", "snack": "chips", "cost": "2"},
+    {"name": "Player 3", "snack": "pizza", "cost": "4"},
+    {"name": "Player 4", "snack": "Pizza", "cost": "4"},
+]
 
+counts = {}
+for order in orders:
+    snack = order["snack"]
+    counts[snack] = counts.get(snack, 0) + 1
+print(counts)
 
-def check(label, actual, expected):
-    if actual == expected:
-        results.append(True)
-        print("PASS", label)
-    else:
-        results.append(False)
-        print("FAIL", label, "expected", expected, "got", actual)
-
-
-def ticket_price(age):
-    if 13 < age < 19:
-        return 6
-    return 10
-
-
-check("AC-2.1 age 13 pays teen price", ticket_price(13), 6)
-check("AC-2.1 age 19 pays teen price", ticket_price(19), 6)
-check("AC-2.2 age 12 pays adult price", ticket_price(12), 10)
-check("AC-2.2 age 20 pays adult price", ticket_price(20), 10)
-print(results.count(True), "passed,", results.count(False), "failed")
+total = 0
+for order in orders:
+    total = total + int(order["cost"])
+print(total)
 ```
 
-It prints two FAIL lines for 13 and 19, two PASS lines, and `2 passed, 2 failed`.
+Then step through it one line at a time. Watch `counts` grow in the right-hand panel.
 
-**Why this one.** Watching `13 < age < 19` evaluate to `False` with `age` equal to 13 does
-more than any explanation. Then have the student fix the comparison, not the expected
-values, and step through again.
+**Two questions.**
+
+1. How many pizzas does the dictionary say were ordered? How many were really ordered?
+2. Why does the second loop need `int()`?
+
+Answers at the bottom of this file.
+
+**Why this one.** This is the same shape as counting tasks by status on the Sprint Board.
+It is a different example on purpose, so you practice the pattern without copying the lab.
 
 **Time.** 15 minutes. **Level.** Remediation.
 
 ---
 
-## 9. What goes wrong when teams write tests first
+## 5. Practice: read a test file's output
 
-**Agile Alliance glossary, "Acceptance Test Driven Development (ATDD)"** ·
-`https://www.agilealliance.org/glossary/atdd/` · **Confident.**
+**No link.** On Friday you paste your whole test output into `docs/sprint_review_1.md` and
+explain every failure. This is practice on output that is not yours.
 
-**What it is.** A glossary entry on writing acceptance tests together, before the code.
+A team is building a volunteer hours tracker. Their stakeholder signed these criteria:
 
-**Why this one.** It has a pitfalls section. One pitfall is teams letting a testing tool
-take over a practice whose real purpose is a conversation about requirements. That is
-Thursday's lesson and Friday's sign-off meeting, stated by practitioners. Assign it to the
-student who thinks the test file is the goal instead of the agreement behind it.
+- AC-1.1 The total counts only rows with a whole number of hours.
+- AC-1.2 The average is shown to one decimal place.
+- AC-2.1 Every bad row is counted, so the report can say how many were skipped.
+- AC-2.2 A bad row is left out of the total.
 
-**Time.** 10 minutes. **Level.** Extension.
+Their test file printed this:
+
+```
+PASS  AC-1.1 total of clean rows
+FAIL  AC-1.2 average to one decimal place
+        expected: 3.3
+        actual:   3.3333333333333335
+FAIL  AC-2.1 bad rows are counted
+        expected: 1
+        actual:   0
+PASS  AC-2.2 bad row is left out of the total
+
+2 passed, 2 failed
+```
+
+**Answer in writing.**
+
+1. Which criteria are not met yet?
+2. For AC-1.2, is the program wrong or is the test wrong? How do you know?
+3. A teammate says, "Change the expected value to `3.3333333333333335` and it passes." What
+   do you say?
+4. For AC-2.1, the program leaves the bad row out, because AC-2.2 passes. It still reports
+   `0` skipped. What does that tell you to look for in the code?
+
+Answers at the bottom of this file.
+
+**Why this one.** Reading a FAIL line is a skill. It is tempting to see the word FAIL and
+stop. The expected and actual lines together tell you what to fix and where to look.
+
+**Time.** 15 minutes. **Level.** On-level.
 
 ---
 
-## 10. On the video slot
+## 6. Video: dictionaries, explained again
 
-**No specific video is named here, deliberately.** This file could not confirm the length
-or current location of any single video on acceptance criteria.
+**Python for Everybody** · `https://www.py4e.com/` · **[VERIFY].** The site refused an
+automated check when this file was written. Python for Everybody pairs its chapters with
+recorded lectures. **[VERIFY]** that, the dictionaries lesson link, and that the video is under 20
+minutes.
 
-**What to search for.** A short explainer on "Given When Then acceptance criteria" or
-"acceptance criteria examples" from a named organization's official channel, such as an
-industry association or a tool vendor's own learning channel. **[VERIFY]** before assigning.
-Watch the whole thing first. Confirm it is under 20 minutes, it does not require an account,
-and it loads through district filtering.
+**For your teacher, before Friday of Week 12.** Load the dictionaries video on a lab
+machine through district filtering. If it plays and is under 20 minutes, write "checked" next
+to this item on the printed copy. If not, cross this item out.
 
-**Reject any video that** presents agile as the correct answer and waterfall as
-outdated. Monday's lesson is that this is a real tradeoff, and a video that says otherwise
-teaches the misconception.
+**For you.** If this item is crossed out, skip it. Do not search for a replacement video in
+class. Use item 4 instead.
 
-**If you cannot find one you trust, do not assign a link.** Replay Tuesday's two
-`teen_discount` readings on the projector for any student who missed it. That five-minute
-argument about 13 and 19 is better than a video anyway, because the students had it.
+**Why this one.** It is free and it explains dictionaries to beginners. Some students need
+to hear an idea said out loud by a person before the written version makes sense.
 
-**Level.** Remediation, for students who were absent Tuesday.
+**Time.** Under 20 minutes. **Level.** Remediation.
 
 ---
 
-## 11. Side quest
+## On the "current article" slot
 
-**SQ-24 Ship for a Real Stakeholder**, as a preview only. Full description in
-`Courses/Misc/MCCTC_Side_Quest_Catalog_2026-2027.md`. The catalog lists it as unlocking in
-the 145010 capstone, or any time with instructor approval, and as a multi-week quest.
+**Not filled this week, on purpose.** An industry article would be new content, and this
+week introduces none. Week 12's resources already include one.
 
-**Why it fits here.** This week you work with a stakeholder your teacher plays. SQ-24 is the
-same process with a real person outside the class: a written scope agreement, at least two
-meetings, a working thing, and a handoff document. A student who comes alive during
-Tuesday's interview is the student to name it to.
+---
 
-**Do not start it this week.** The sprint needs every student through December 18. Mention
-it, and let an interested student write a Problem Inventory entry for later.
+## 7. Side quest
 
-**Week 14's side quest is SQ-12 Read the Source,** offered Friday, December 11. It unlocks any
-time after Unit 4 in the catalog, so no early unlock is needed.
+**SQ-12 Read the Source.** Full description in
+`Courses/Misc/MCCTC_Side_Quest_Catalog_2026-2027.md`. It unlocks any time after Unit 4.
+
+**Only on Friday, and only if your team work is fully current.** The Week 13 guide says so.
+
+**What to do.** Follow the catalog: find a small open-source Python project, read it, and write
+the report it describes, including one thing you would change and what its license would require
+of you.
+
+**Done when** your report is specific enough to quote line numbers, which is the catalog's own
+standard.
+
+**Why it fits here.** On Monday of Week 14, another team reads your code and you read theirs.
+Reading a stranger's code carefully, before anyone asks you to judge it, is the warm-up for that.
 
 ---
 
 ## For the student who is behind
 
-1. Python Tutor with the ticket price checks, stepped one line at a time
-2. The acceptance tests lecture notes, the `check` pattern and Worked example 2 only, typed and run
-3. Rewrite one of your team's acceptance criteria so it names both sides of a boundary
+1. Item 1: find the lecture note part for the thing you are stuck on, and type every example
+2. Item 4: Python Tutor with the snack orders, stepped one line at a time
+3. Write your question in `docs/question_log.md` with your best assumption, then keep going
 
-Do not assign all eleven resources. A student who is behind and gets eleven links reads none of
-them. Friday's sign-off is the deadline that matters, and the third item moves it forward.
+Do not try to do all seven items. Pick the one that matches what is stopping you.
+
+---
+
+## Answers
+
+**Item 3.** The missing spots are filled with `None` by default. Calling `int(None)` raises
+`TypeError`, so a short row crashes the program unless you check for it first.
+
+**Item 4.**
+
+The program prints:
+
+```
+{'pizza': 2, 'chips': 1, 'Pizza': 1}
+14
+```
+
+1. The dictionary says 2 pizzas under `'pizza'` and a separate 1 under `'Pizza'`. Three pizzas
+   were really ordered. `'pizza'` and `'Pizza'` are different strings, so they are different
+   keys. This is the same silent bug as Week 12's `"Mon Dec 07"`. Cleaning the text first with
+   `.strip().lower()` from Unit 1 fixes it.
+2. Every value read from a CSV file is a string. `"4" + "2"` would join text, and `0 + "4"`
+   raises `TypeError`. `int()` turns the text into a number you can add.
+
+**Item 5.**
+
+1. AC-1.2 and AC-2.1.
+2. The program is wrong. The expected value `3.3` comes from the signed criterion, which says
+   one decimal place. The actual value was never rounded. Rounding to one decimal place in the
+   program makes the check pass.
+3. No. That makes the test agree with the bug, so it proves nothing. Expected values come from
+   the stakeholder or from arithmetic done by hand, never from your program's output. If you
+   really believe the criterion is wrong, write it in the question log and keep going.
+4. Something skips the bad row without adding one to the count. Look at the code that handles
+   a bad row. The count is never increased there, or the error is caught and ignored.

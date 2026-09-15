@@ -1,5 +1,5 @@
 # Lecture Notes: elif Chains and the Order of Conditions
-## 145060 Programming · Unit 2 · Week 5 · Monday, October 5
+## 145060 Programming · Unit 2 · Week 5, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W05_ElifChains.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W05_ElifChains.pptx)

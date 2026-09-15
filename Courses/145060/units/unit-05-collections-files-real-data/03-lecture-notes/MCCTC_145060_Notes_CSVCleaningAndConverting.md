@@ -1,5 +1,5 @@
 # Lecture Notes: Reading CSV, Cleaning It, and Converting It
-## 145060 Programming · Unit 5 · Week 11 · Wednesday, November 18
+## 145060 Programming · Unit 5 · Week 11, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W11_CSVAndCleaning.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W11_CSVAndCleaning.pptx)
 

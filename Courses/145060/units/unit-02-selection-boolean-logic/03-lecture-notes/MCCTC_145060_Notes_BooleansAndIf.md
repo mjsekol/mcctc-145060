@@ -1,5 +1,5 @@
 # Lecture Notes: Comparisons, Booleans, and if/else
-## 145060 Programming · Unit 2 · Week 4 · Thursday, October 1
+## 145060 Programming · Unit 2 · Week 4, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W04_BooleansAndIf.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W04_BooleansAndIf.pptx)

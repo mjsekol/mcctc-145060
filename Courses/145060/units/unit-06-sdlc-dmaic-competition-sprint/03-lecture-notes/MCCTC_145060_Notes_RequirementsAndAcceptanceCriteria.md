@@ -1,8 +1,8 @@
 # Lecture Notes: Requirements and Acceptance Criteria
-## 145060 Programming · Unit 6 · Week 13 · Tuesday, December 1
+## 145060 Programming · Unit 6 · Week 12, Tuesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W13_Requirements.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W13_Requirements.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W12_Requirements.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W12_Requirements.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.
@@ -24,7 +24,7 @@ find out whether the guess was right until the demo, and at the demo it is too l
 
 Requirements turn a feeling into something you can build. Acceptance criteria turn a
 requirement into something you can check. Together they are the difference between "I
-think it works" and "we agreed on December 4 what working means, and here it is working."
+think it works" and "we agreed on Friday of Week 12 what working means, and here it is working."
 
 ---
 

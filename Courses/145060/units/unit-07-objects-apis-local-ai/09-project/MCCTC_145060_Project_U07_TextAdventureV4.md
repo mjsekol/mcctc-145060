@@ -2,7 +2,7 @@
 ## 145060 Programming · Unit 7 · Objects and a Local Narrator
 
 **Mode:** solo, building on your own version 3. **Gate:** 3, full tooling.
-**Periods:** across Weeks 16 and 17, with milestones on real class days below.
+**Periods:** across Weeks 15 and 16, with milestones on real class days below.
 
 **Competencies:** 5.3.12 (classes, objects, methods), 5.5.4 (call other programs),
 5.5.7 (read inputs from an API), 9.3.3 (input validation), 2.1.1 (CIA in your design).
@@ -92,11 +92,11 @@ text-adventure/v4/
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Tue Jan 5, end of Build 2 | One sentence on what the narrator adds, and the one rule it must never break |
-| **Measure** | Wed Jan 6, end of Build 2 | A list of every room, and for each, the clue (if any) that must survive narration |
-| **Analyze** | Thu Jan 7, end of Build 2 | On paper: the three classes and what each knows and does, drawn from your v3 |
-| **Improve** | Week 16 Thu to Week 17 Wed | Build it: classes first, then the model client, then the checks |
-| **Control** | Wed Jan 13, end of Build 2 | Tests pass, README complete, three runs recorded: success, fallback, rejected reply |
+| **Define** | Week 15 Tue, end of Build 2 | One sentence on what the narrator adds, and the one rule it must never break |
+| **Measure** | Week 15 Wed, end of Build 2 | A list of every room, and for each, the clue (if any) that must survive narration |
+| **Analyze** | Week 15 Thu, end of Build 2 | On paper: the three classes and what each knows and does, drawn from your v3 |
+| **Improve** | Week 15 Thu to Week 16 Wed | Build it: classes first, then the model client, then the checks |
+| **Control** | Week 16 Wed, end of Build 2 | Tests pass, README complete, three runs recorded: success, fallback, rejected reply |
 
 **Analyze is the one students skip and the one that saves them.** Draw the three classes
 before you write them. Half the projects that go wrong go wrong because the student started
@@ -108,11 +108,11 @@ typing `Game` before deciding what `Room` and `Player` each own.
 
 | Day | Goal |
 |---|---|
-| Thu Jan 7 (W16) | v3 reorganized into `Room`, `Player`, `Game`. Same game, now in classes. Tests pass. |
-| Fri Jan 8 (W16) | Optional flex: start `local_model.py` skeleton |
-| Mon Jan 11 (W17) | Model client sends a request and reads a reply |
-| Tue Jan 12 (W17) | The reply checks and the fallback |
-| Wed Jan 13 (W17) | Keep-phrases, input validation on `examine`, README, three recorded runs |
+| Week 15 Thu | v3 reorganized into `Room`, `Player`, `Game`. Same game, now in classes. Tests pass. |
+| Week 15 Fri | Optional flex: start `local_model.py` skeleton |
+| Week 16 Mon | Model client sends a request and reads a reply |
+| Week 16 Tue | The reply checks and the fallback |
+| Week 16 Wed | Keep-phrases, input validation on `examine`, README, three recorded runs |
 
 ---
 

@@ -1,8 +1,8 @@
 # Lecture Notes: __init__ and Attributes
-## 145060 Programming · Unit 7 · Week 16 · Tuesday
+## 145060 Programming · Unit 7 · Week 15 · Tuesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W16_InitAttributes.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W16_InitAttributes.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_InitAttributes.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W15_InitAttributes.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type every
 example, especially the shared-list bug near the end.

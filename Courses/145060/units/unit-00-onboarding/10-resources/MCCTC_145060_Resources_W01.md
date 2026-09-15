@@ -1,5 +1,5 @@
 # Additional Resources · Week 1
-## 145060 Programming · Unit 0 · September 8-11, 2026
+## 145060 Programming · Unit 0 · Week 1
 ### Topic: running a program, and version control
 
 **About the links.** Every URL below is marked with how confident this file is that
@@ -39,17 +39,17 @@ covers the interactive shell, expressions, and writing a first program in a file
 
 **Why this one.** It is the only free introductory book that treats "get the thing
 installed and run a file" as a real topic rather than a footnote, which is exactly
-Tuesday. It also uses the interactive shell heavily, which this course does not,
+Monday. It also uses the interactive shell heavily, which this course does not,
 so tell students to read for the file-based section and skip the shell material for
 now.
 
-**Time.** 30 minutes. **Level.** Remediation for anyone shaky after Tuesday, and
+**Time.** 30 minutes. **Level.** Remediation for anyone shaky after Monday, and
 on-level reinforcement for everyone else.
 
 ### Alternates, both confident
 
 - **Think Python, 3rd edition** · `https://allendowney.github.io/ThinkPython/` ·
-  Chapter 1. Denser and more precise. Better for the student who found Tuesday
+  Chapter 1. Denser and more precise. Better for the student who found Monday
   slow and wants the vocabulary nailed down.
 - **Python for Everybody** · `https://www.py4e.com/` · Chapter 1. Gentler pacing
   and a strong "why programming" framing. The best choice for a student who is not
@@ -64,7 +64,7 @@ on-level reinforcement for everyone else.
 Read two sections, not the whole book.
 
 - **1.3 What is Git?** Explains snapshots against differences. This is the reading
-  that makes the photograph metaphor from Wednesday click.
+  that makes the photograph metaphor from Tuesday click.
 - **2.2 Recording Changes to the Repository** Covers the three states directly.
 
 **Why this one.** It is the official book, free in full, and it is what a working
@@ -110,7 +110,7 @@ Give them one specific question to answer from it rather than telling them to re
 it: **what is the default value of `sep`, and what does it do.**
 
 That single question explains why `print("Ava", "Ruiz")` puts a space between the
-two words, which is Gate 1 Rep 05, Rep 16, and bell ringer W01-05. A student who
+two words, which is Gate 1 Rep 05, Rep 16, and bell ringer W01-04. A student who
 finds that answer on an official reference page has done something more valuable
 than the answer itself.
 
@@ -128,7 +128,7 @@ between documentation reorganizations. Click it once.
 **What it is.** GitHub's own documentation for the service that scans repositories
 for credentials and notifies the provider that issued them.
 
-**Why this one.** Thursday's lesson can read like a classroom rule. This is the
+**Why this one.** Wednesday's lesson can read like a classroom rule. This is the
 platform itself documenting a feature it built because the mistake is common enough
 at professional scale to require automated defense. That reframes the lesson from
 "my teacher said not to" to "this is a known industry failure mode with tooling
@@ -153,7 +153,7 @@ stable, but confirm it plays through district filtering before assigning it.
 
 **Honest note.** This pack does not name a specific YouTube video. There are several
 excellent free Git introductions on YouTube under twenty minutes, and a specific
-video ID written into a file in September is a link that may not resolve later.
+video ID written into a file today is a link that may not resolve later.
 Rather than guess at one, pick a video yourself, watch the first three minutes, and
 confirm two things: it uses `main` rather than `master` as the default branch name,
 and it does not open with GitHub Desktop or another graphical client. Both of those

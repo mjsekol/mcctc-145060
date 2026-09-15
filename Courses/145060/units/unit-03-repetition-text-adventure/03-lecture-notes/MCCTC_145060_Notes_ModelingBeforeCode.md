@@ -1,5 +1,5 @@
 # Lecture Notes: Modeling Before Code
-## 145060 Programming · Unit 3 · Week 6 · Wednesday, October 14
+## 145060 Programming · Unit 3 · Week 6, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W06_ModelingBeforeCode.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W06_ModelingBeforeCode.pptx)

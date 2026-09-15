@@ -1,5 +1,5 @@
 # Lecture Notes: Lists
-## 145060 Programming · Unit 5 · Week 10 · Monday, November 9
+## 145060 Programming · Unit 5 · Week 10, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W10_Lists.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W10_Lists.pptx)
 

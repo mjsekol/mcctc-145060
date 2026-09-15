@@ -1,5 +1,5 @@
 # Lecture Notes: Save, Load, and the File You Cannot Trust
-## 145060 Programming · Unit 5 · Week 11 · Tuesday, November 17
+## 145060 Programming · Unit 5 · Week 11, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W11_SaveAndLoad.md) · [deck](../04-slides/exports/MCCTC_145060_Slides_W11_SaveAndLoad.pptx)
 

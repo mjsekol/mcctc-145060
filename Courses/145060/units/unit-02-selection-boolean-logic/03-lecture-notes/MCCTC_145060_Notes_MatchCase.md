@@ -1,5 +1,5 @@
 # Lecture Notes: match and case
-## 145060 Programming · Unit 2 · Week 6 · Monday, October 12
+## 145060 Programming · Unit 2 · Week 6, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W06_MatchCase.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W06_MatchCase.pptx)

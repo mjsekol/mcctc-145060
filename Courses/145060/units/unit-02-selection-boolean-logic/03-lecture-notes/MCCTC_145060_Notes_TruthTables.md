@@ -1,5 +1,5 @@
 # Lecture Notes: Truth Tables
-## 145060 Programming · Unit 2 · Week 5 · Wednesday, October 7
+## 145060 Programming · Unit 2 · Week 5, Wednesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W05_TruthTables.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W05_TruthTables.pptx)

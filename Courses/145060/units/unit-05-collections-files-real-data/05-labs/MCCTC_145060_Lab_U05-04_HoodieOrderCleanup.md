@@ -2,7 +2,7 @@
 ## 145060 Programming · Unit 5 · Week 11
 
 **Gate:** 3 (open tooling). **Duration:** one Build 1 block, Wednesday, 35 minutes, with the
-report and README finishing in Friday flex time if needed. **Competencies:** 5.3.11 (access
+report and README finishing in flex time if needed. **Competencies:** 5.3.11 (access
 data repositories), 5.5.7 (read inputs from a data file), 5.1.5 (data management:
 converting a data file to a new format), 5.5.1 (data validation), 5.5.6 (format output).
 

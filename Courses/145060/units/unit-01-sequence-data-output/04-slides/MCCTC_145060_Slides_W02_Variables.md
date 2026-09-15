@@ -29,7 +29,7 @@ Image: None. This slide is code.
 ```python
 count = count + 1
 ```
-Speaker notes: In algebra this is false for every number there is. In Python it is an instruction. Take whatever count is currently tied to, add one, and tie count to the new result. Read it with the word gets and it stops being strange. Count gets count plus one. You will write this line hundreds of times before January.
+Speaker notes: In algebra this is false for every number there is. In Python it is an instruction. Take whatever count is currently tied to, add one, and tie count to the new result. Read it with the word gets and it stops being strange. Count gets count plus one. You will write this line hundreds of times before the semester ends.
 Image: None. This slide is code.
 ---
 ## Slide 5: Predict this before I run it

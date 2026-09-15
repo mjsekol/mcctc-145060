@@ -1,5 +1,5 @@
 # Lecture Notes: and, or, not
-## 145060 Programming · Unit 2 · Week 5 · Tuesday, October 6
+## 145060 Programming · Unit 2 · Week 5, Tuesday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W05_LogicalOperators.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W05_LogicalOperators.pptx)

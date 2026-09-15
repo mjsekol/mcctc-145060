@@ -1,5 +1,5 @@
 # Lecture Notes: Compound Conditions and When to Flatten Nesting
-## 145060 Programming · Unit 2 · Week 5 · Thursday, October 8
+## 145060 Programming · Unit 2 · Week 5, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W05_FlatteningNesting.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W05_FlatteningNesting.pptx)
@@ -305,7 +305,7 @@ arrives when somebody changes it, and it is paid by whoever touches it next.
 
 **Flattening feels backwards at first.** Checking reasons to say no before saying yes is a
 habit, not an instinct. Once you have it, you will see pyramids everywhere, including in code
-an AI hands you. Today's Gate 2, in Build 2, is waiting for that.
+an AI hands you. Tomorrow's Gate 2 is waiting for that.
 
 ---
 
@@ -403,4 +403,4 @@ Executed: age `14` with `n` prints `You need a physical first.` Age `14` with `y
 
 The original printed nothing for `14` with `n`, and told `10` with `n` to get a physical, which
 matches both symptoms in the question. **When code and intent disagree, the requirement wins,
-and you have to know what the requirement says.** That is today's Gate 2 in one sentence.
+and you have to know what the requirement says.** That is tomorrow's Gate 2 in one sentence.

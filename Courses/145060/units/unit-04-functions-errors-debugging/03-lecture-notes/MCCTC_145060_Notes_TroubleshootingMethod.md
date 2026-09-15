@@ -1,5 +1,5 @@
 # Lecture Notes: The Six-Step Troubleshooting Method
-## 145060 Programming · Unit 4 · Week 9 · Monday, November 2
+## 145060 Programming · Unit 4 · Week 9, Monday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W09_TroubleshootingMethod.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W09_TroubleshootingMethod.pptx)

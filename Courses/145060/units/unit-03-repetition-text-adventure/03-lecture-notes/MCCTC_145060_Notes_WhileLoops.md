@@ -1,5 +1,5 @@
 # Lecture Notes: The while Loop
-## 145060 Programming · Unit 3 · Week 6 · Thursday, October 15
+## 145060 Programming · Unit 3 · Week 6, Thursday
 
 **Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W06_WhileLoops.md) ·
 [deck](../04-slides/exports/MCCTC_145060_Slides_W06_WhileLoops.pptx)

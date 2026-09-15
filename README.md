@@ -55,17 +55,21 @@ generates room descriptions, that is a feature.
 
 ## What is in here
 
-| Unit | Weeks | Dates | Folder |
-|---|---|---|---|
-| 0 · Onboarding, Version Control & Ground Rules | 1-2 | Sept 8 - Sept 18 | `unit-00-onboarding/` |
-| 1 · Sequence, Data & Output | 2-4 | Sept 16 - Oct 2 | `unit-01-sequence-data-output/` |
-| 2 · Selection & Boolean Logic | 4-6 | Sept 28 - Oct 16 | `unit-02-selection-boolean-logic/` |
-| 3 · Repetition & the Text Adventure | 6-8 | Oct 12 - Oct 30 | `unit-03-repetition-text-adventure/` |
-| 4 · Functions, Errors & Debugging | 8-9 | Oct 26 - Nov 6 | `unit-04-functions-errors-debugging/` |
-| 5 · Collections, Files & Real Data | 10-12 | Nov 9 - Nov 24 | `unit-05-collections-files-real-data/` |
-| 6 · SDLC, DMAIC & the Competition Sprint | 13-15 | Nov 30 - Dec 18 | `unit-06-sdlc-dmaic-competition-sprint/` |
-| 7 · Objects, APIs & Local AI | 16-18 | Jan 4 - Jan 22 | `unit-07-objects-apis-local-ai/` |
-| 8 · Deploy, Document & Demonstrate | 19 | Jan 25 - Jan 29 | `unit-08-deploy-document-demonstrate/` |
+| Unit | Weeks | Folder |
+|---|---|---|
+| 0 · Onboarding, Version Control & Ground Rules | 1-2 | `unit-00-onboarding/` |
+| 1 · Sequence, Data & Output | 2-4 | `unit-01-sequence-data-output/` |
+| 2 · Selection & Boolean Logic | 4-6 | `unit-02-selection-boolean-logic/` |
+| 3 · Repetition & the Text Adventure | 6-8 | `unit-03-repetition-text-adventure/` |
+| 4 · Functions, Errors & Debugging | 8-9 | `unit-04-functions-errors-debugging/` |
+| 5 · Collections, Files & Real Data | 10-11 | `unit-05-collections-files-real-data/` |
+| 6 · SDLC, DMAIC & the Competition Sprint | 12-14 | `unit-06-sdlc-dmaic-competition-sprint/` |
+| 7 · Objects, APIs & Local AI | 15-17 | `unit-07-objects-apis-local-ai/` |
+| 8 · Deploy, Document & Demonstrate | 18 | `unit-08-deploy-document-demonstrate/` |
+
+The course runs 18 weeks. Grading Period 1 is Weeks 1-9 and Grading Period 2 is Weeks 10-18.
+Everything here is scheduled by week and day, so your teacher will tell you how the weeks line
+up with this year's calendar.
 
 Every unit folder is under `Courses/145060/units/` and has the same shape:
 

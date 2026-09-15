@@ -1,5 +1,5 @@
 # Problem Drop 2: The Chore Chart
-## 145060 Programming · Unit 5 · Friday, November 13, 2026
+## 145060 Programming · Unit 5 · Week 10, Friday
 
 **Time:** 5 minutes to read, 45 minutes to build, 5 minutes to commit. **Mode:** individual.
 **Gate:** 3, full tooling, AI usage log required if you use a model.

@@ -1,9 +1,9 @@
 # Additional Resources · Week 6
-## 145060 Programming · October 12-15, 2026
+## 145060 Programming · Week 6
 ### Topic: match and case, machine learning against decision trees, modeling, and while loops
 
 Links marked **Confident** or **[VERIFY]**, same standard as every week. **Confident** here means the
-URL returned a working page with the expected title when this file was built on September 14, 2026.
+URL returned a working page with the expected title when this file was built.
 Click each one once before assigning it.
 
 | # | Resource | For | Level | Time |
@@ -137,5 +137,6 @@ would have caught.
 1. **Monday or Tuesday missed:** the notes for that day, then Python Tutor with the notes' wrong version
 2. **Wednesday missed:** the Wednesday notes with paper out, and nothing else
 3. **Thursday missed:** the PY4E loops video, then the Thursday notes, typing every example
+4. **Friday missed:** Friday has no new content, so no resource here covers it. The student takes Gate 2 W06 with you and picks a text adventure setting before Monday.
 
 Do not assign all eight resources. Pick one per missed day.

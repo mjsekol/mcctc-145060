@@ -1,8 +1,8 @@
 # Project: Text Adventure Version 3
-## 145060 Programming · Unit 5 · Due Friday, November 20, 2026
+## 145060 Programming · Unit 5 · Due Week 11, Wednesday
 
 **Mode:** solo. **Gate:** 3, full tooling, decision log required. **Periods:** seven Build 2
-blocks across Weeks 10 and 11, plus Friday flex time.
+blocks, Week 10 Monday through Week 11 Wednesday, plus Week 10 Friday flex time.
 
 **Competencies:** 5.3.11 (access data repositories), 5.5.7 (read inputs from a data file),
 5.1.5 (data management through programming languages), 5.2.2 (scope of data, including
@@ -108,11 +108,11 @@ text-adventure/
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Mon Nov 9, end of Build 2 | The two complaints restated as requirements in your own words, in `decision-log.md` |
-| **Measure** | Mon Nov 9, end of Build 2 | A list of every place your v2 hardcodes a room, an exit, or an item, with line numbers |
-| **Analyze** | Tue Nov 10, end of Build 2 | Your world drawn as nested dictionaries on paper or in a comment, before code, and a first decision log entry naming each structure you chose |
-| **Improve** | Wed Nov 11 to Tue Nov 17 | Build it, in the order of the milestone schedule |
-| **Control** | Fri Nov 20, end of Build 2 | Tests passing, README complete, three bad saves demonstrated |
+| **Define** | Week 10 Mon, end of Build 2 | The two complaints restated as requirements in your own words, in `decision-log.md` |
+| **Measure** | Week 10 Mon, end of Build 2 | A list of every place your v2 hardcodes a room, an exit, or an item, with line numbers |
+| **Analyze** | Week 10 Tue, end of Build 2 | Your world drawn as nested dictionaries on paper or in a comment, before code, and a first decision log entry naming each structure you chose |
+| **Improve** | Week 10 Tue to Week 11 Tue | Build it, in the order of the milestone schedule |
+| **Control** | Week 11 Wed, end of Build 2 | Tests passing, README complete, three bad saves demonstrated |
 
 **Measure is the checkpoint that saves the most time.** Students who skip the list of hardcoded places
 find the last one on Thursday night, when a room they "moved" still has a description inside an `if`.
@@ -123,15 +123,18 @@ find the last one on Thursday night, when a room they "moved" still has a descri
 
 | Day | Build 2 goal |
 |---|---|
-| Mon Nov 9 | Define and Measure. No new code. |
-| Tue Nov 10 | Analyze. Rooms and exits as a dictionary in code. `find_exit` deleted. |
-| Wed Nov 11 | Inventory as a list, visited rooms as a set. Every v2 `global` gone. |
-| Thu Nov 12 | All changing values in one state dictionary. Items left in each room as a dictionary of lists. v2 tests pass again. |
-| Fri Nov 13 | Problem Drop 2 runs in Build 2. No v3 time unless you finish the drop early. |
-| Mon Nov 16 | World data moved into `world.json`, loaded and checked at startup. |
-| Tue Nov 17 | `save` and `load`, with all three bad-save messages. |
-| Wed Nov 18, Thu Nov 19 | Build 2 belongs to the data pipeline project. Fix v3 bugs in flex time only. |
-| Fri Nov 20 | New tests, README, decision log, final push. **Due at the end of the block.** |
+| Week 10 Mon | Define and Measure. No new code. |
+| Week 10 Tue | Analyze. Rooms and exits as a dictionary in code. `find_exit` deleted. |
+| Week 10 Wed | Inventory as a list, visited rooms as a set. Every v2 `global` gone. |
+| Week 10 Thu | All changing values in one state dictionary. Items left in each room as a dictionary of lists. v2 tests pass again. |
+| Week 10 Fri | Problem Drop 2 runs in Build 2. No v3 time unless you finish the drop early. |
+| Week 11 Mon | World data moved into `world.json`, loaded and checked at startup. Write the broken-`world.json` test today. |
+| Week 11 Tue | `save` and `load`, with all three bad-save messages. Copy the messages into your README's `Bad saves` table today. |
+| Week 11 Wed | New tests, README, decision log, paired demo, final push. **Due at the end of the block.** |
+
+**There is no spare day between `save` and the deadline.** Tuesday's block ends with a working save and load, and
+Wednesday's block is for finishing and demonstrating, not for building. Writing each test the day you build the feature
+it tests is what makes that work.
 
 ---
 
@@ -173,8 +176,8 @@ prints before you build anything else? If not, the extras are hiding the require
 
 ## The five-minute demo
 
-Friday, November 20, in pairs, with your instructor visiting. Everyone demos to a partner; some demo to the
-room.
+Week 11, Wednesday, in the last 15 minutes of Build 2, in pairs, with your instructor visiting. Everyone
+demos to a partner; some demo to the room.
 
 1. **Play for 60 seconds, then `save`.** Walk somewhere else. **`load`.** Show that you are back. (90 seconds)
 2. **Break it three ways, on purpose.** Delete the save and load. Damage the save and load. Edit the save to

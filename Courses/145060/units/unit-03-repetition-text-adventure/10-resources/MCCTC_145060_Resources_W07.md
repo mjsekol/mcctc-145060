@@ -1,5 +1,5 @@
 # Additional Resources · Week 7
-## 145060 Programming · October 19-23, 2026
+## 145060 Programming · Week 7
 ### Topics: for loops and range, the game loop, break and continue, nested loops
 
 Links marked **Confident** or **[VERIFY]**, same standard as every week. A site marked Confident with a section marked
@@ -27,7 +27,7 @@ Links marked **Confident** or **[VERIFY]**, same standard as every week. A site 
 totaling loop patterns in one chapter.
 
 **Why this one.** Its loop chapter builds the same patterns this week and Monday of next week use: counting, summing, and finding the
-largest and smallest. A student who reads it this week is ahead for October 26.
+largest and smallest. A student who reads it this week is ahead for Monday of Week 8.
 
 **Watch for:** it uses lists in some loop examples. Tell students to skip any example with square brackets. Lists are Unit 5.
 

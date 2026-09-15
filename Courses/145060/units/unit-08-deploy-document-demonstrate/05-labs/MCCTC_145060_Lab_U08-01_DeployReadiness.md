@@ -1,5 +1,5 @@
 # Lab U8-01: Deploy Readiness
-## 145060 Programming · Unit 8 · Week 19 · Monday, January 25
+## 145060 Programming · Unit 8 · Week 18, Monday
 
 **Gate:** 3 (open tooling). **Duration:** Monday Build 1, 35 minutes, plus the first 10
 minutes of Build 2 if you need them. **Competencies:** 5.6.16 (deploy the application),

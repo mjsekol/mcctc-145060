@@ -1,5 +1,5 @@
 # Additional Resources · Week 9
-## 145060 Programming · November 2-6, 2026
+## 145060 Programming · Week 9
 ### Topics: the troubleshooting method, try and except, narrow excepts, test cases
 
 Links marked **Confident** or **[VERIFY]**. A site marked Confident with a section marked [VERIFY] means the site is certainly there and the exact chapter or

@@ -1,8 +1,8 @@
 # Lecture Notes: Team Roles, Leadership, and Conflict
-## 145060 Programming · Unit 6 · Week 15 · Tuesday, December 15
+## 145060 Programming · Unit 6 · Week 14, Tuesday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W15_TeamsAndConflict.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W15_TeamsAndConflict.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W14_TeamsAndConflict.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W14_TeamsAndConflict.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.
@@ -271,7 +271,7 @@ A resolution using this lesson:
 1. **Separate the people from the problem.** The problem is the requirement, not who changed what.
 2. **Restate interests.** Test Lead: typos should not count. Integration Lead: checked-but-empty
    bins should be visible.
-3. **Check the objective standard.** AC-1.2, signed December 4, says "whole number above zero."
+3. **Check the objective standard.** AC-1.2, signed on Friday of Week 12, says "whole number above zero."
 4. **Find the option that serves both.** Keep refusing zero. Log a question to the stakeholder about
    recording empty bins.
 5. **Fix the process conflict too.** Add to the working agreement: nobody changes a check another

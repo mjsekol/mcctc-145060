@@ -1,5 +1,5 @@
 # Project: Final Deploy
-## 145060 Programming · Unit 8 · Live URL due Thursday, January 28, 2027 · Demos Friday, January 29
+## 145060 Programming · Unit 8 · Live URL due Week 18, Thursday · Demos Week 18, Friday
 
 **Mode:** solo. **Gate:** 3, full tooling, decision log required. **Periods:** Build 2 on
 Monday and Tuesday, the end of Wednesday if the exam finishes early, and Build 2 on Thursday
@@ -21,7 +21,7 @@ revision window after Friday that can reach this grading period. Plan for that.
 Read this as though a person said it to you. This brief is a composite scenario written for
 this course, not a real request from a real person.
 
-> Every January families ask us what students actually built this semester, and every year
+> At the end of every semester, families ask us what students actually built, and every year
 > the answer is a screenshot. I am done with screenshots. I want a page of links. A parent
 > taps one on their phone in the parking lot and the thing runs.
 >
@@ -139,11 +139,11 @@ Monday.
 
 | Phase | Due | What you hand in |
 |---|---|---|
-| **Define** | Mon Jan 25, end of Build 2 | Which project, who the user is, and one sentence on what they do with it. First entry in `DECISION_LOG.md`. |
-| **Measure** | Mon Jan 25, end of Build 2 | A readiness audit: for your project as it is today, which of requirements 2 through 7 already pass and which fail. Written, before you fix anything. Tag it `v0.9.0`: that is your starting baseline. |
-| **Analyze** | Tue Jan 26, end of Build 2 | Implementation plan and user help drafted. The contingency plan names your three likeliest failures. |
+| **Define** | Week 18 Mon, end of Build 2 | Which project, who the user is, and one sentence on what they do with it. First entry in `DECISION_LOG.md`. |
+| **Measure** | Week 18 Mon, end of Build 2 | A readiness audit: for your project as it is today, which of requirements 2 through 7 already pass and which fail. Written, before you fix anything. Tag it `v0.9.0`: that is your starting baseline. |
+| **Analyze** | Week 18 Tue, end of Build 2 | Implementation plan and user help drafted. The contingency plan names your three likeliest failures. |
 | **Improve** | Mon through Thu | Make the readiness fixes, deploy, test from a phone, write the docs. |
-| **Control** | Thu Jan 28, end of block | `v1.0.0` tagged and pushed on the deployed commit. Change impact note done. All five of your plan's verification checks run against the live URL. |
+| **Control** | Week 18 Thu, end of block | `v1.0.0` tagged and pushed on the deployed commit. Change impact note done. All five of your plan's verification checks run against the live URL. |
 
 **Measure is the checkpoint students skip, and it is the one that saves Thursday.** A readiness
 audit on Monday tells you exactly how much work there is, while there is still time to do it.
@@ -154,11 +154,11 @@ audit on Monday tells you exactly how much work there is, while there is still t
 
 | Day | In class | Your project goal by end of block |
 |---|---|---|
-| **Mon Jan 25** | Deploying to Render. Lab U8-01. | Project chosen. Readiness audit written, `v0.9.0` tagged. Port, host, and `/health` fixed. Service created on Render, even if the first deploy fails. |
-| **Tue Jan 26** | Implementation plans and user help. Lab U8-02 Parts 1-2. | Deploy working. Implementation plan and user help drafted. A partner followed your plan and you fixed what they hit. |
-| **Wed Jan 27** | Versions, baselines, change impact. Lab U8-02 Part 3. **GP2 exam** in Build 2. | Decision log has five entries. Change impact note drafted. |
-| **Thu Jan 28** | **WebXam post-test** first. Build 2 is project time. | Tag `v1.0.0`, `CHANGELOG.md`, verification checks run on the live URL from a phone, demo rehearsed once with a partner. **Everything due at the end of the block.** |
-| **Fri Jan 29** | **Demos.** | Present. Your teacher checks your URL before class starts. |
+| **Week 18 Mon** | Deploying to Render. Lab U8-01. | Project chosen. Readiness audit written, `v0.9.0` tagged. Port, host, and `/health` fixed. Service created on Render, even if the first deploy fails. |
+| **Week 18 Tue** | Implementation plans and user help. Lab U8-02 Parts 1-2. | Deploy working. Implementation plan and user help drafted. A partner followed your plan and you fixed what they hit. |
+| **Week 18 Wed** | Versions, baselines, change impact. Lab U8-02 Part 3. **GP2 exam** in Build 2. | Decision log has five entries. Change impact note drafted. |
+| **Week 18 Thu** | **WebXam post-test** first. Build 2 is project time. | Tag `v1.0.0`, `CHANGELOG.md`, verification checks run on the live URL from a phone, demo rehearsed once with a partner. **Everything due at the end of the block.** |
+| **Week 18 Fri** | **Demos.** | Present. Your teacher checks your URL before class starts. |
 
 ---
 

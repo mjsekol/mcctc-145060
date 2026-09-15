@@ -1,8 +1,8 @@
 # Lecture Notes: Acceptance Tests Agreed with Stakeholders
-## 145060 Programming · Unit 6 · Week 13 · Thursday, December 3
+## 145060 Programming · Unit 6 · Week 12, Thursday
 
-**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W13_AcceptanceTests.md) ·
-[deck](../04-slides/exports/MCCTC_145060_Slides_W13_AcceptanceTests.pptx)
+**Slides for this lesson:** [outline](../04-slides/MCCTC_145060_Slides_W12_AcceptanceTests.md) ·
+[deck](../04-slides/exports/MCCTC_145060_Slides_W12_AcceptanceTests.pptx)
 
 If you missed class, you can learn this concept from this file alone. Type and run
 every example.
@@ -18,7 +18,7 @@ applied. Latent 145130: 2.15.2 (research with the end user in mind, such as beta
 In Unit 4 you wrote test cases to check your own functions. Those tests answered one
 question: does my code do what I think it does?
 
-That is not the question the stakeholder asks on December 18. The stakeholder asks: **does
+That is not the question the stakeholder asks on Friday of Week 14. The stakeholder asks: **does
 it do what I need?** Those are different questions, and a program can pass the first and
 fail the second completely.
 
@@ -39,7 +39,7 @@ Three rules make acceptance tests worth having.
 1. **The expected value comes from the stakeholder or from arithmetic you did by hand.**
    Never from running your own program and copying what it printed.
 2. **Tests are written before the code, and they fail at first.** A failing test on
-   December 3 is correct. It is a promise waiting to be kept.
+   Thursday of Week 12 is correct. It is a promise waiting to be kept.
 3. **Every criterion has at least one check, and boundaries get a check on both sides.**
 
 ### The `check` pattern used in this unit
@@ -69,7 +69,7 @@ When something fails, the label tells you which promise was broken.
 On Friday your stakeholder reads your criteria and the list of check labels, and signs both.
 That meeting is a small version of competency 5.6.10, presenting your design to a
 stakeholder. It is also the moment to catch misunderstandings, because changing a check on
-December 4 costs one line and changing it on December 17 costs the demo.
+Friday of Week 12 costs one line and changing it on Thursday of Week 14 costs the demo.
 
 When the stakeholder later runs the program on their own data to see whether it works for
 them, that is **user acceptance testing**. In industry it is closely related to beta
