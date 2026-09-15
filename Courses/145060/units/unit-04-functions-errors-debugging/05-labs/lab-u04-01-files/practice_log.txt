@@ -1,0 +1,14 @@
+Oct 19  35
+Oct 20  40
+Oct 21  30
+Oct 22   0
+Oct 23  20
+Oct 24  45
+Oct 25  50
+Oct 26   0
+Oct 27  60
+Oct 28  30
+Oct 29  75
+Oct 30  90
+Oct 31  40
+Nov 01  35

@@ -1,0 +1,8 @@
+A01 Glow bracelet          15
+A02 Sticker sheet          20
+B03 Mini basketball       150
+B04 Slime kit             175
+C05 Plush dragon          400
+C06 LED desk lamp         750
+C07 Bluetooth speaker   1,200
+D08 Gaming headset       2500

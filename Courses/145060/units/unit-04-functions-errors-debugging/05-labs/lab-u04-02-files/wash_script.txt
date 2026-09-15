@@ -1,0 +1,14 @@
+car
+5
+SUV
+five
+80
+
+10
+truck
+0
+van
+
+car
+ 20 
+done
