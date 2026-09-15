@@ -1,0 +1,8 @@
+{
+  "owner_note": "Habit streaks. Days in a row, and the best run so far.",
+  "habits": {
+    "Practice guitar": {"streak": 4, "best": 9},
+    "Drink water before school": {"streak": "twelve", "best": 12},
+    "Read 20 pages": {"streak": 0, "best": 3}
+  }
+}

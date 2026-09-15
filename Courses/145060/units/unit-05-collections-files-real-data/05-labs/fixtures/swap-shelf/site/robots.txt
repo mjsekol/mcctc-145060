@@ -1,0 +1,7 @@
+# robots.txt for the Oak Hollow Game Club Swap Shelf
+# Automated visitors: read this before you request anything else.
+
+User-agent: *
+Crawl-delay: 2
+Disallow: /members/
+Disallow: /drafts/

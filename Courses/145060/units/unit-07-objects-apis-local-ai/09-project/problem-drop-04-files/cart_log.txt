@@ -1,0 +1,24 @@
+# Laptop cart sign-out. Write TAKE or RETURN, the laptop number, your name, the period.
+TAKE LT-01 Ava P1
+RETURN LT-01 Ava P1
+TAKE LT-04 Marcus P1
+TAKE LT-01 Priya P1
+RETURN LT-01 Priya P1
+TAKE LT-07 Devon P1
+RETURN LT-04 Marcus P1
+TAKE LT-12 Sofia P2
+TAKE LT-01 Kai P2
+took LT-15 Jordan
+RETURN LT-01 Kai P2
+TAKE LT-19 Elena P2
+RETURN LT-25 Noah P2
+TAKE LT-01 Ren P3
+TAKE LT-04 Ibrahim P3
+RETURN LT-04 Ibrahim P3
+RETURN LT-01 Ren P3
+TAKE LT-08 Grace P3
+TAKE LT-01 Leo P4
+RETURN LT-08
+RETURN LT-01 Leo P4
+TAKE LT-22 Mia P4
+TAKE LT-04 Owen P4
