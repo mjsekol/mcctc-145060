@@ -343,8 +343,11 @@ you did not know about, and you fixed it.
 # Senior Year · 145130 Applications of AI
 
 ## SQ-18 · Prompt Ablation
-**Unlocks:** 145130, early · **Time:** one block · **Difficulty:** ★★
+**Unlocks:** 145130, Module 2 · **Time:** one block · **Difficulty:** ★★
 **Competency:** 2.14.3, 2.14.4
+
+**Materials are built and in `side-quests/SQ-18-Prompt-Ablation/`.** A base prompt, an
+ablation runner, a stub model server so it runs with no model installed, and a self-check.
 
 Take one prompt that works. Remove one element at a time, run it again, and record
 what changes. Role, format instruction, examples, constraints, tone.
@@ -355,8 +358,11 @@ conclusion about which element was doing the most work. Most students are surpri
 ---
 
 ## SQ-19 · The Bias Audit
-**Unlocks:** 145130 · **Time:** two blocks · **Difficulty:** ★★★
-**Competency:** 2.14.2, 2.14.4, 1.5.5
+**Unlocks:** 145130, Module 3 · **Time:** two blocks · **Difficulty:** ★★★
+**Competency:** 2.14.2, 2.14.4, 2.14.6
+
+**Materials are built and in `side-quests/SQ-19-The-Bias-Audit/`.** A probe runner, an
+analyzer, and a stub model server so the method is testable with no model installed.
 
 Design a repeatable test for bias in a locally hosted model's output. Ask for the
 same kind of thing many times, varying only one detail, and record what changes.
@@ -374,8 +380,11 @@ can only confirm what you already believed is not a test.
 ---
 
 ## SQ-20 · Explain It to a Seventh Grader
-**Unlocks:** 145130 · **Time:** one block · **Difficulty:** ★
-**Competency:** 2.14.2, 1.2.5
+**Unlocks:** 145130, Module 6 · **Time:** one block · **Difficulty:** ★
+**Competency:** 2.14.1, 2.14.2, 1.2.5
+
+**Materials are built and in `side-quests/SQ-20-Explain-It-To-A-Seventh-Grader/`.** A jargon
+checker, a sample script to fix, and comprehension questions a real seventh grader can answer.
 
 Write and record a five-minute explanation of how a language model produces text,
 aimed at a twelve-year-old. No jargon that you do not define.
